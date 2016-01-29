@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour {
 	protected bool falling;
 
 	// Use this for initialization
-	void Start () {
+	protected void Start () {
 	
 	}
 
@@ -29,7 +29,6 @@ public class Enemy : MonoBehaviour {
 			side = false; //izquierda
 		}
 		falling = true;
-		Physics.gravity = new Vector2(0, -9.8f - fS);
 	}
 	
 	// Update is called once per frame

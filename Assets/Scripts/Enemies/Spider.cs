@@ -3,22 +3,27 @@ using System.Collections;
 
 public class Spider : Enemy {
 
+	private Rigidbody2D rigidBody;
+
 	// Use this for initialization
 	void Start () {
+		rigidBody = GetComponent<Rigidbody2D>();
 		initEnemy (1, 1.0f, 1, 0f);
+		Physics.gravity = new Vector2(0, -9.8f - fallSpeed);
+		rigidBody.gravityScale += fallSpeed;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (falling && onFloor) {
-			Physics.gravity = new Vector2 (0, -9.8f);
+			rigidBody.gravityScale -= fallSpeed;
 			falling = false;
 		} else if (!falling && onFloor) {
 			if(side){
-				transform.Translate(movSpeed * Vector2.right * Time.deltaTime);
+				rigidBody.velocity = new Vector2(movSpeed, 0.0f);
 			}
 			else{
-				transform.Translate(movSpeed * Vector2.left * Time.deltaTime);
+				rigidBody.velocity = new Vector2(-movSpeed, 0.0f);
 			}
 		}
 	}
