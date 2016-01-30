@@ -26,10 +26,10 @@ public class GameManager : MonoBehaviour {
 	}
 
     public void ReplayScene() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		Application.LoadLevel (Application.loadedLevel);
     }
 
     public void ExitScene() {
-        SceneManager.LoadScene("Menu");
+		Application.LoadLevel ("Menu");
     }
 }
