@@ -6,6 +6,7 @@ public class Player : MonoBehaviour {
     public bool movingRight = true;
     public float normalSpeed = 6.0f;
     public float jumpSpeed = 6.0f;
+    private Animator animator;
     
 
     private bool jumping = false;
@@ -98,6 +99,12 @@ public class Player : MonoBehaviour {
                     }
                 }
             }
+        }
+
+        if (animator != null) {
+            animator.SetBool("movingRight", movingRight);
+            animator.SetBool("jumping", jumping);
+            animator.SetBool("attacking", (attackPhase == AttackPhase.MIDDLE));
         }
 	}
 
