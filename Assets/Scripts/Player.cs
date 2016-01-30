@@ -6,6 +6,7 @@ public class Player : MonoBehaviour {
     public bool movingRight = true;
     public float normalSpeed = 6.0f;
     public float jumpSpeed = 6.0f;
+    private Animator animator;
     
 
     private bool jumping = false;
@@ -99,6 +100,12 @@ public class Player : MonoBehaviour {
                 }
             }
         }
+
+        if (animator != null) {
+            animator.SetBool("movingRight", movingRight);
+            animator.SetBool("jumping", jumping);
+            animator.SetBool("attacking", (attackPhase == AttackPhase.MIDDLE));
+        }
 	}
 
     private void FixedUpdate() {
@@ -111,8 +118,8 @@ public class Player : MonoBehaviour {
         if (coll.contacts[0].normal.y == 1.0f) {
             jumping = false;
             if (attackPhase == AttackPhase.MIDDLE) {
-                nextAttackPhase = Time.time + 0.2f;
-                speed = normalSpeed * 0.05f;
+                nextAttackPhase = Time.time + 0.1f;
+                speed = normalSpeed * 0.5f;
 
                 // Hit the enemy.
                 if (coll.gameObject.tag == "Enemy") {
