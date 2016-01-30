@@ -24,6 +24,6 @@ public class EggPlant : Enemy {
 			else{
 				rigidBody.velocity = new Vector2(-movSpeed, 0.0f);
 			}
-		} 
+		}
 	}
 }

@@ -10,12 +10,10 @@ public class Enemy : MonoBehaviour {
 	protected bool onFloor;
 	protected bool side;
 	protected bool falling;
-	protected float timeDamage;
-	protected float delayDamage;
 
 	// Use this for initialization
 	protected void Start () {
-
+	
 	}
 
 	protected void initEnemy(int l, float mS, int dmg, float fS){
@@ -31,8 +29,6 @@ public class Enemy : MonoBehaviour {
 			side = false; //izquierda
 		}
 		falling = true;
-		timeDamage = Time.time;
-		delayDamage = 1.0f;
 	}
 	
 	// Update is called once per frame
@@ -93,24 +89,6 @@ public class Enemy : MonoBehaviour {
 			onFloor = true;
 		} else if (col.gameObject.tag == "Wall") {
 			side = !side;
-		} else if(col.gameObject.tag == "Player"){
-			PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
-			if(stats != null){
-				stats.RemoveFat(damage);
-				timeDamage = Time.time;
-			}
-		}
-	}
-
-	protected void OnCollisionStay2D(Collision2D coll) {
-		if (coll.gameObject.tag == "Player") {
-			if((Time.time - timeDamage) > delayDamage){
-				PlayerStats stats = coll.gameObject.GetComponent<PlayerStats>();
-				if(stats != null){
-					stats.RemoveFat(damage);
-					timeDamage = Time.time;
-				}
-			}
 		}
 	}
 }
