@@ -16,11 +16,11 @@ public class Bullet : MonoBehaviour {
 	void OnCollisionEnter2D (Collision2D col)
 	{
 		if (col.gameObject.tag == "Floor" || col.gameObject.tag == "Wall") {
-			Destroy(this);
+			Destroy(gameObject);
 		} 
 		else if(col.gameObject.tag == "Player"){
 			//Do damage
-			Destroy (this);
+			Destroy (gameObject);
 		}
 	}
 }
