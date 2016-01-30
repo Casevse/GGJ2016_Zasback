@@ -28,7 +28,7 @@ public class Tomato : Enemy {
 			rigidBody.gravityScale -= fallSpeed;
 			falling = false;
 		} else if (!falling && onFloor && (Time.time - timeJump) > delayJump) {
-			if(side){
+			if (side) {
 				rigidBody.AddForce(new Vector2(movSpeed, height));
 			}
 			else{
@@ -38,14 +38,13 @@ public class Tomato : Enemy {
 		}
 	}
 
-	void OnCollisionEnter2D (Collision2D col)
-	{
+	void OnCollisionEnter2D (Collision2D col) {
 		if (col.gameObject.tag == "Floor" && !onFloor) {
 			timeJump = Time.time;
 			onFloor = true;
 		} else if (col.gameObject.tag == "Wall") {
 			side = !side;
-		} else if(col.gameObject.tag == "Player"){
+		} else if(col.gameObject.tag == "Player") {
 			PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
 			if(stats != null){
 				stats.RemoveFat(damage);
