@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour {
 		if (col.gameObject.tag == "Floor" || col.gameObject.tag == "Wall") {
 			Destroy(gameObject);
 		} 
-		else if(col.gameObject.tag == "Player"){
+		else if(col.gameObject.tag == "Player") {
 			PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
 			if(stats != null){
 				stats.RemoveFat(damage);
