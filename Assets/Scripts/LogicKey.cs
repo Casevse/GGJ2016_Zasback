@@ -31,7 +31,6 @@ public class LogicKey : MonoBehaviour {
 
 		if (keyPhase != KeyPhase.END) {
 			if (keyPhase == KeyPhase.JUMP) {
-				Debug.Log (force);
 				rigidbody.velocity = new Vector2(0.0f, 0.0f);
 				rigidbody.AddForce(new Vector2(-(jumpForce/10), +force * 0.9f), ForceMode2D.Impulse);
 				keyPhase = KeyPhase.NONE;
