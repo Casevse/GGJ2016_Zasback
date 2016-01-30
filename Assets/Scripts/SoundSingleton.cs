@@ -6,7 +6,6 @@ public class SoundSingleton : MonoBehaviour {
 	private static SoundSingleton   Instance;
 
 	private AudioSource AudioManager;
-	
 
 	public AudioClip powerUp;
 	public AudioClip hitPlayer;
@@ -14,6 +13,8 @@ public class SoundSingleton : MonoBehaviour {
 	public AudioClip attackPlayer;
 	public AudioClip clickMenu;
 	public AudioClip shotCub;
+
+	public bool muteMusic;
 
 	public static SoundSingleton Singleton
 	{
@@ -62,6 +63,7 @@ public class SoundSingleton : MonoBehaviour {
 	public void PlayClickMenu(){
 		AudioManager.PlayOneShot (clickMenu);
 	}
+
 	public void PlayShotCub(){
 		AudioManager.PlayOneShot (shotCub);
 	}
