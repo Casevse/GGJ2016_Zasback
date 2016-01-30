@@ -42,13 +42,15 @@ public class Cob : Enemy {
 	void shoot(bool s){
 		GameObject clone;
 		if (s) {
-			Vector3 aux = new Vector3(transform.position.x + 0.5f, transform.position.y, 0.0f);
+			Vector3 aux = new Vector3(transform.position.x + 0.75f, transform.position.y, 0.0f);
 			clone = Instantiate (bullet, aux, transform.rotation) as GameObject;
 			clone.GetComponent<Rigidbody2D>().velocity = new Vector2(4.0f, 0.0f);
-		} else {
-			Vector3 aux = new Vector3(transform.position.x - 0.5f, transform.position.y, 0.0f);
+            Destroy(clone.gameObject, 4.0f);
+        } else {
+			Vector3 aux = new Vector3(transform.position.x - 0.75f, transform.position.y, 0.0f);
 			clone = Instantiate (bullet, aux, transform.rotation) as GameObject;
 			clone.GetComponent<Rigidbody2D>().velocity = new Vector2(-4.0f, 0.0f);
+            Destroy(clone.gameObject, 4.0f);
 		}
 	}
 }

@@ -26,6 +26,8 @@ public class Bullet : MonoBehaviour {
 				stats.RemoveFat(damage);
 			}
 			Destroy (gameObject);
-		}
+		} else {
+            Destroy(gameObject);
+        }
 	}
 }
