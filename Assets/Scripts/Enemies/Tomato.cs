@@ -45,6 +45,24 @@ public class Tomato : Enemy {
 			onFloor = true;
 		} else if (col.gameObject.tag == "Wall") {
 			side = !side;
+		} else if(col.gameObject.tag == "Player"){
+			PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
+			if(stats != null){
+				stats.RemoveFat(damage);
+				timeDamage = Time.time;
+			}
+		}
+	}
+
+	void OnCollisionStay2D(Collision2D coll) {
+		if (coll.gameObject.tag == "Player") {
+			if((Time.time - timeDamage) > delayDamage){
+				PlayerStats stats = coll.gameObject.GetComponent<PlayerStats>();
+				if(stats != null){
+					stats.RemoveFat(damage);
+					timeDamage = Time.time;
+				}
+			}
 		}
 	}
 }

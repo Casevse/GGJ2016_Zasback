@@ -26,7 +26,12 @@ public class PlayerStats : MonoBehaviour {
 	private Color colorBar;
 	private bool delayDamage = true;
 
+    private float invulnerableTime = 0.0f;
+    private SpriteRenderer spriteRenderer;
 
+    private void Awake() {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
 	// Use this for initialization
 	void Start () {
@@ -40,11 +45,27 @@ public class PlayerStats : MonoBehaviour {
 		colorBar.a = ((float)(255*100)/255)/100;
 
 		barText.text = "Grasiento";
-
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (Input.GetKeyDown(KeyCode.D)) {
+            RemoveFat(10);
+        }
+
+        if (Time.time > invulnerableTime) {
+            this.gameObject.layer = LayerMask.NameToLayer("Default");
+            Color color = spriteRenderer.color;
+            color.a = 1.0f;
+            spriteRenderer.color = color;
+        } else {
+            // Parpadeo
+            Color color = spriteRenderer.color;
+            color.a = 0.75f + Mathf.Sin((invulnerableTime - Time.time) * 16.0f) * 0.25f;
+            spriteRenderer.color = color;
+        }
+
         if (Input.GetKeyDown(KeyCode.B))
         {
             RemoveFat(5);
@@ -97,15 +118,23 @@ public class PlayerStats : MonoBehaviour {
 
 	public void AddFat(int value){
 		modifyFat += value;
+
 	}
 
 	public void RemoveFat(int value){
+<<<<<<< HEAD
 		if (delayDamage) {
 			modifyFat -= value;
 			delayDamage = false;
 			StartCoroutine(damageEffect() );
 		}
 	}
+=======
+		modifyFat -= value;
+        this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
+        invulnerableTime = Time.time + 0.5f;
+    }
+>>>>>>> origin/master
 
 
 
