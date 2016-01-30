@@ -12,7 +12,10 @@ public class Tomato : Enemy {
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D>();
 		initEnemy (1, 200.0f, 1, 0.5f);
-		Physics.gravity = new Vector2(0, -9.8f - fallSpeed);
+		initParamsTomato ();
+	}
+
+	private void initParamsTomato(){
 		rigidBody.gravityScale += fallSpeed;
 		height = 600.0f;
 		timeJump = Time.time - 1.0f;

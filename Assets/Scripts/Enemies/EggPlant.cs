@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Spider : Enemy {
+public class EggPlant : Enemy {
 
 	private Rigidbody2D rigidBody;
 
@@ -9,7 +9,6 @@ public class Spider : Enemy {
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D>();
 		initEnemy (1, 1.0f, 1, 0f);
-		Physics.gravity = new Vector2(0, -9.8f - fallSpeed);
 		rigidBody.gravityScale += fallSpeed;
 	}
 	

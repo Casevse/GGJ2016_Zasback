@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour {
 	}
 
 	protected void initEnemy(int l, float mS, int dmg, float fS){
-		int rand = Random.Range (1, 3);
+		int rand = Random.Range (1, 3); //Rand para el lado en el que comienza
 		life = l;
 		movSpeed = mS;
 		damage = dmg;
@@ -78,7 +78,7 @@ public class Enemy : MonoBehaviour {
 		return side;
 	}
 
-	void OnCollisionEnter2D (Collision2D col)
+	protected void OnCollisionEnter2D (Collision2D col)
 	{
 		if (col.gameObject.tag == "Floor" && !onFloor) {
 			onFloor = true;
