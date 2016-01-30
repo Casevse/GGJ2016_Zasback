@@ -90,11 +90,6 @@ public class Player : MonoBehaviour {
                 }
             }
         }
-
-        // DEBUG
-        if (Input.GetKeyDown(KeyCode.D)) {
-            movingRight = !movingRight;
-        }
 	}
 
     private void FixedUpdate() {
@@ -113,7 +108,7 @@ public class Player : MonoBehaviour {
             attackPhase = AttackPhase.END;
         }
 
-        if (coll.contacts[0].normal.x == 1.0f || coll.contacts[0].normal.x == -1.0f) {
+        if (coll.gameObject.tag == "Wall") {
             if (flipPhase == FlipPhase.NONE) {
                 flipPhase = FlipPhase.TOUCHING;
             }
