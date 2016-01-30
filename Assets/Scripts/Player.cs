@@ -108,6 +108,11 @@ public class Player : MonoBehaviour {
                 // Hit the enemy.
                 if (coll.gameObject.tag == "Enemy") {
                     // TODO: Hacer daño, esperar a que Aitor no toque enemigos.
+
+                    Enemy enemy = coll.gameObject.GetComponent<Enemy>();
+                    if (enemy != null) {
+                        enemy.setLife(enemy.getLife() - 1);
+                    }
                 }
             }
             attackPhase = AttackPhase.END;
