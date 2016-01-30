@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour {
+public class LogicPlayer : MonoBehaviour {
+
+	public float percentBarWidth;
+	public float percentBarHeight;
 
 	// Use this for initialization
 	void Start () {
@@ -10,8 +13,6 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.position = new Vector2 (this.transform.position.x+(float)(1*Time.deltaTime), this.transform.position.y);
+	
 	}
-
-
 }
