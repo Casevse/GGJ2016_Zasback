@@ -3,10 +3,10 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
-	protected int life;
-	protected float movSpeed;
-	protected int damage;
-	protected float fallSpeed;
+	public int life;
+	public float movSpeed;
+	public int damage;
+	public float fallSpeed;
 	protected bool onFloor;
 	protected bool side;
 	protected bool falling;
