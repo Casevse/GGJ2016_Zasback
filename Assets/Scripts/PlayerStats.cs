@@ -1,22 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour {
 
 	public int fat;
 	public int maxFat;
-	public float percentBarWidth;
-	public float percentBarHeight;
-
-	public int padding_Top_Bar;
-	public int padding_Left_Bar;
 
 	private int modifyFat;
 
+	public Image barFull;
+	public Image barEmpty;
+	public Text barText;
 
 	public int progress;
-	public Texture2D progressBarEmpty;
-	public Texture2D progressBarFull;
 
 	private float screenX;
 	private float screenY;
@@ -24,14 +21,23 @@ public class PlayerStats : MonoBehaviour {
 	private float heightBar;
 	private float fatBar;
 
+	private Color colorBar;
+
+
 
 	// Use this for initialization
 	void Start () {
 		modifyFat = 0;
-		float percent = percentBarWidth / 100;
-		widthBar = Screen.width*percent;
-		percent = percentBarHeight/100;
-		heightBar = Screen.height*percent;
+		heightBar = barEmpty.rectTransform.rect.height;
+		widthBar = barEmpty.rectTransform.rect.width;
+
+		colorBar.r = ((float)(211*100)/255)/100;
+		colorBar.g = ((float)(47*100)/255)/100;
+		colorBar.b = ((float)(47*100)/255)/100;
+		colorBar.a = ((float)(255*100)/255)/100;
+
+		barText.text = "Grasiento";
+
 	}
 	
 	// Update is called once per frame
@@ -39,12 +45,26 @@ public class PlayerStats : MonoBehaviour {
 		if (IsDead ()) {
 			Debug.Log ("Has muerto");
 		} else {
+			barFull.rectTransform.sizeDelta = new Vector2 ((widthBar * fat) / 100,heightBar);
+			if (fat > maxFat / 2) {
+				float g = (164 * (maxFat - fat) / 50 + 47);
+				colorBar.g = ((float)(g * 100) / 255) / 100;	
+			} else {
+				float r = 211 - (164 * ((maxFat / 2) -fat)) / (maxFat / 2); //(164 * (fat-(maxFat/2)) / 50 + 47);
+				colorBar.r = ((float)(r * 100) / 255) / 100;
+			}
 
-			screenX = Screen.width / 5;
-			screenY = Screen.height / 5;
+			barFull.color =colorBar;
 
-			fatBar = (widthBar * fat) / maxFat;
-
+			if(fat >= maxFat*0.75 )
+				barText.text = "Grasiento";
+			else if(fat >= maxFat*0.5 )
+				barText.text = "Gordo";
+			else if(fat >= maxFat*0.25 ) 
+				barText.text = "Normal";
+			else
+				barText.text = "Flaco";
+			
 			if (modifyFat < 0) {
 				fat -=progress;
 				if (fat <= 0)
@@ -63,10 +83,6 @@ public class PlayerStats : MonoBehaviour {
 		}
 	}
 
-	void OnGUI(){
-		GUI.DrawTexture (new Rect((int)(screenX*0.1f)+padding_Left_Bar, (int)(screenY*0.1f)+padding_Top_Bar, widthBar, heightBar), progressBarEmpty);
-		GUI.DrawTexture (new Rect((int)(screenX*0.1f)+padding_Left_Bar, (int)(screenY*0.1f)+padding_Top_Bar, fatBar, heightBar), progressBarFull);
-	}
 
 	public void AddFat(int value){
 		modifyFat += value;
