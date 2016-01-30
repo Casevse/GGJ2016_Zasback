@@ -104,6 +104,11 @@ public class Player : MonoBehaviour {
             if (attackPhase == AttackPhase.MIDDLE) {
                 nextAttackPhase = Time.time + 0.2f;
                 speed = normalSpeed * 0.05f;
+
+                // Hit the enemy.
+                if (coll.gameObject.tag == "Enemy") {
+                    // TODO: Hacer daño, esperar a que Aitor no toque enemigos.
+                }
             }
             attackPhase = AttackPhase.END;
         }
