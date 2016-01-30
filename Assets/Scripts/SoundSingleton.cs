@@ -12,7 +12,7 @@ public class SoundSingleton : MonoBehaviour {
 	public AudioClip enemySmash;
 	public AudioClip attackPlayer;
 	public AudioClip clickMenu;
-	public AudioClip shotCub;
+	public AudioClip shotCob;
 
 	public bool muteMusic;
 
@@ -45,27 +45,33 @@ public class SoundSingleton : MonoBehaviour {
 	}
 
 	public void PlayPowerUp(){
-		AudioManager.PlayOneShot (powerUp);
+		if(PlayerPrefs.GetInt("Effects") == 1)
+			AudioManager.PlayOneShot (powerUp);
 	}
 
 	public void PlayHitPlayer(){
+		if(PlayerPrefs.GetInt("Effects") == 1)
 		AudioManager.PlayOneShot (hitPlayer);
 	}
 
 	public void PlaySmashEnemy(){
+		if(PlayerPrefs.GetInt("Effects") == 1)
 		AudioManager.PlayOneShot (enemySmash);
 	}
 
 	public void PlayAttackPlayer(){
+		if(PlayerPrefs.GetInt("Effects") == 1)
 		AudioManager.PlayOneShot (attackPlayer);
 	}
 		
 	public void PlayClickMenu(){
+		if(PlayerPrefs.GetInt("Effects") == 1)
 		AudioManager.PlayOneShot (clickMenu);
 	}
 
-	public void PlayShotCub(){
-		AudioManager.PlayOneShot (shotCub);
+	public void PlayShotCob(){
+		if(PlayerPrefs.GetInt("Effects") == 1)
+		AudioManager.PlayOneShot (shotCob);
 	}
 
 }
