@@ -6,8 +6,10 @@ public class SoundSingleton : MonoBehaviour {
 	private static SoundSingleton   Instance;
 
 	private AudioSource AudioManager;
+	
 
 	public AudioClip powerUp;
+	public AudioClip hitPlayer;
 
 	public static SoundSingleton Singleton
 	{
@@ -39,6 +41,11 @@ public class SoundSingleton : MonoBehaviour {
 
 	public void PlayPowerUp(){
 		AudioManager.PlayOneShot (powerUp);
+	}
+
+	public void PlayHitPlayer(){
+		AudioManager.PlayOneShot (hitPlayer);
+
 	}
 		
 }

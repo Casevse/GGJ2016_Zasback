@@ -15,6 +15,7 @@ public class PlayerStats : MonoBehaviour {
 
 	public int progress;
 
+
 	private float screenX;
 	private float screenY;
 	private float widthBar;
@@ -123,6 +124,9 @@ public class PlayerStats : MonoBehaviour {
         this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
         invulnerableTime = Time.time + 0.5f;
     }
+
+
+
 
 	public bool IsDead(){
 		if (fat <= 0)
