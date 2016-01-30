@@ -57,7 +57,7 @@ public class Player : MonoBehaviour {
             flipPhase = FlipPhase.NONE;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.Space) || (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)) {
             action = true;
         } else {
             action = false;
