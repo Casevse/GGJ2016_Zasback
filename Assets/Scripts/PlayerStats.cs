@@ -109,6 +109,7 @@ public class PlayerStats : MonoBehaviour {
 
 	public void RemoveFat(int value){
 		modifyFat -= value;
+		SoundSingleton.Singleton.PlayHitPlayer ();
         this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
         invulnerableTime = Time.time + 0.5f;
     }

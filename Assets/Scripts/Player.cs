@@ -74,6 +74,7 @@ public class Player : MonoBehaviour {
         if ((int)attackPhase > 0) {
             if (Time.time > nextAttackPhase) {
                 if (attackPhase == AttackPhase.BEGIN) {
+					SoundSingleton.Singleton.PlayAttackPlayer ();
                     rigidbody.velocity = new Vector2(0.0f, 0.0f);
                     rigidbody.AddForce(new Vector2(0.0f, -jumpSpeed * 0.8f), ForceMode2D.Impulse);
                     attackPhase = AttackPhase.MIDDLE;
@@ -117,6 +118,7 @@ public class Player : MonoBehaviour {
                 if (coll.gameObject.tag == "Enemy") {
                     Enemy enemy = coll.gameObject.GetComponent<Enemy>();
                     if (enemy != null) {
+						SoundSingleton.Singleton.PlaySmashEnemy ();
                         enemy.setLife(enemy.getLife() - 1);
                     }
                 }

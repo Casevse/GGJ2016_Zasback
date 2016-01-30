@@ -23,7 +23,7 @@ public class PowerUp : MonoBehaviour {
 			GetComponent<BoxCollider2D> ().size = new Vector2 (width/100,height/100);
 			if (fatMax == 0)
 				fatMax = 20;
-			int valueFat = Random.Range (fatMin,fatMax);
+			valueFat = Random.Range (fatMin,fatMax);
 
 
 		}
@@ -36,7 +36,6 @@ public class PowerUp : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D collision){
-		Debug.Log ("sd");
 		if (collision.gameObject.tag == "Player") {
 			collision.gameObject.GetComponent<PlayerStats> ().AddFat (valueFat);
 			SoundSingleton.Singleton.PlayPowerUp ();

@@ -10,6 +10,10 @@ public class SoundSingleton : MonoBehaviour {
 
 	public AudioClip powerUp;
 	public AudioClip hitPlayer;
+	public AudioClip enemySmash;
+	public AudioClip attackPlayer;
+	public AudioClip clickMenu;
+	public AudioClip shotCub;
 
 	public static SoundSingleton Singleton
 	{
@@ -45,7 +49,21 @@ public class SoundSingleton : MonoBehaviour {
 
 	public void PlayHitPlayer(){
 		AudioManager.PlayOneShot (hitPlayer);
+	}
 
+	public void PlaySmashEnemy(){
+		AudioManager.PlayOneShot (enemySmash);
+	}
+
+	public void PlayAttackPlayer(){
+		AudioManager.PlayOneShot (attackPlayer);
 	}
 		
+	public void PlayClickMenu(){
+		AudioManager.PlayOneShot (clickMenu);
+	}
+	public void PlayShotCub(){
+		AudioManager.PlayOneShot (shotCub);
+	}
+
 }
