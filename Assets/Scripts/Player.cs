@@ -13,6 +13,7 @@ public class Player : MonoBehaviour {
     private Vector2 direction;
     private bool action;
     private float speed;
+    private PlayerStats playerStats;
     
     public enum AttackPhase {
        NONE, BEGIN, MIDDLE, END
@@ -25,6 +26,10 @@ public class Player : MonoBehaviour {
     }
     public FlipPhase flipPhase;
     private float nextFlipPhase;
+
+    private void Awake() {
+        playerStats = GetComponent<PlayerStats>();
+    }
 
 	private void Start() {
         jumping = false;
@@ -57,10 +62,13 @@ public class Player : MonoBehaviour {
             flipPhase = FlipPhase.NONE;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) || (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)) {
-            action = true;
-        } else {
-            action = false;
+        if (playerStats.IsDead() == false) {
+            if (Input.GetKeyDown(KeyCode.Space) || (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)) {
+                action = true;
+            }
+            else {
+                action = false;
+            }
         }
 
         if ((int)attackPhase > 0) {
@@ -93,7 +101,7 @@ public class Player : MonoBehaviour {
 	}
 
     private void FixedUpdate() {
-        if (attackPhase != AttackPhase.MIDDLE) {
+        if (attackPhase != AttackPhase.MIDDLE && playerStats.IsDead() == false) {
             rigidbody.velocity = new Vector2(direction.x * speed, rigidbody.velocity.y);
         }
     }
@@ -107,8 +115,6 @@ public class Player : MonoBehaviour {
 
                 // Hit the enemy.
                 if (coll.gameObject.tag == "Enemy") {
-                    // TODO: Hacer daño, esperar a que Aitor no toque enemigos.
-
                     Enemy enemy = coll.gameObject.GetComponent<Enemy>();
                     if (enemy != null) {
                         enemy.setLife(enemy.getLife() - 1);
