@@ -122,19 +122,19 @@ public class PlayerStats : MonoBehaviour {
 	}
 
 	public void RemoveFat(int value){
-<<<<<<< HEAD
+
 		if (delayDamage) {
 			modifyFat -= value;
 			delayDamage = false;
 			StartCoroutine(damageEffect() );
 		}
-	}
-=======
+	
+
 		modifyFat -= value;
         this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
         invulnerableTime = Time.time + 0.5f;
     }
->>>>>>> origin/master
+
 
 
 
