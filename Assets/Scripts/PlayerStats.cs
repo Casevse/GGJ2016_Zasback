@@ -48,7 +48,7 @@ public class PlayerStats : MonoBehaviour {
 	void Update () {
 
         if (Input.GetKeyDown(KeyCode.D)) {
-            RemoveFat(1);
+            RemoveFat(10);
         }
 
         if (Time.time > invulnerableTime) {
@@ -57,6 +57,7 @@ public class PlayerStats : MonoBehaviour {
             color.a = 1.0f;
             spriteRenderer.color = color;
         } else {
+            // Parpadeo
             Color color = spriteRenderer.color;
             color.a = 0.75f + Mathf.Sin((invulnerableTime - Time.time) * 16.0f) * 0.25f;
             spriteRenderer.color = color;
