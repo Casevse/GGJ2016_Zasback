@@ -42,6 +42,13 @@ public class PlayerStats : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            RemoveFat(5);
+        }else if (Input.GetKeyDown(KeyCode.N))
+        {
+            AddFat(5);
+        }
 		if (IsDead ()) {
 			Debug.Log ("Has muerto");
 		} else {

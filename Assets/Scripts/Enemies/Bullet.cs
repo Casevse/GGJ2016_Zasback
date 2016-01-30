@@ -12,4 +12,15 @@ public class Bullet : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	void OnCollisionEnter2D (Collision2D col)
+	{
+		if (col.gameObject.tag == "Floor" || col.gameObject.tag == "Wall") {
+			Destroy(this);
+		} 
+		else if(col.gameObject.tag == "Player"){
+			//Do damage
+			Destroy (this);
+		}
+	}
 }
