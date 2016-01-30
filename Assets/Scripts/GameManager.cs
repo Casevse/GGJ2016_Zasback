@@ -1,15 +1,35 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public PlayerStats playerStats;
+    public Button btnReplay;
+    public Button btnExit;
+
+    private bool endGame = false;
+
+    private void Awake() {
+        endGame = false;
+        btnReplay.gameObject.SetActive(false);
+        btnExit.gameObject.SetActive(false);
+    }
 	
+	private void Update() {
+	    if (playerStats.IsDead() && !endGame) {
+            endGame = true;
+            btnReplay.gameObject.SetActive(true);
+            btnExit.gameObject.SetActive(true);
+        }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    public void ReplayScene() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ExitScene() {
+        SceneManager.LoadScene("Menu");
+    }
 }

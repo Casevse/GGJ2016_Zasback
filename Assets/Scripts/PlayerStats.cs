@@ -48,7 +48,7 @@ public class PlayerStats : MonoBehaviour {
 	void Update () {
 
         if (Input.GetKeyDown(KeyCode.D)) {
-            RemoveFat(1);
+            RemoveFat(10);
         }
 
         if (Time.time > invulnerableTime) {
