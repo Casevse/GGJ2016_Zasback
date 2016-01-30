@@ -38,6 +38,11 @@ public class Enemy : MonoBehaviour {
 
 	public void setLife(int l){
 		life = l;
+        if (life <= 0) {
+            // Kill the enemy.
+            // TODO: Animación de muerte para cada enemigo.
+            Destroy(this.gameObject);
+        }
 	}
 	public int getLife(){
 		return life;
