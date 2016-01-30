@@ -3,9 +3,11 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
+	public int damage;
+
 	// Use this for initialization
 	void Start () {
-	
+		damage = 10;
 	}
 	
 	// Update is called once per frame
@@ -19,7 +21,10 @@ public class Bullet : MonoBehaviour {
 			Destroy(gameObject);
 		} 
 		else if(col.gameObject.tag == "Player"){
-			//Do damage
+			PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
+			if(stats != null){
+				stats.RemoveFat(damage);
+			}
 			Destroy (gameObject);
 		}
 	}
