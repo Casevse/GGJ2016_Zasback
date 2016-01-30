@@ -36,7 +36,7 @@ public class Player : MonoBehaviour {
         flipPhase = FlipPhase.NONE;
         nextFlipPhase = 0.0f;
 	}
-	
+
 	private void Update() {
         
         if (movingRight) {
@@ -114,5 +114,6 @@ public class Player : MonoBehaviour {
             }
         }
     }
+
 
 }
