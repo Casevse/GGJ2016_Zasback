@@ -47,11 +47,6 @@ public class PlayerStats : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-        if (Input.GetKeyDown(KeyCode.D)) {
-            RemoveFat(10);
-        }
-
         if (Time.time > invulnerableTime) {
             this.gameObject.layer = LayerMask.NameToLayer("Default");
             Color color = spriteRenderer.color;
@@ -64,13 +59,6 @@ public class PlayerStats : MonoBehaviour {
             spriteRenderer.color = color;
         }
 
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            RemoveFat(5);
-        }else if (Input.GetKeyDown(KeyCode.N))
-        {
-            AddFat(5);
-        }
 		if (IsDead ()) {
 			Debug.Log ("Has muerto");
 		} else {
