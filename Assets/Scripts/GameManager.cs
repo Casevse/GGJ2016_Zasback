@@ -13,6 +13,11 @@ public class GameManager : MonoBehaviour {
     private float nextRespawn;
     public Transform[] respawnPoints;
 
+    // Power ups generation.
+    public PowerUp[] powerUps;
+    private float nextPowerUp;
+    public Transform[] powerUpPoints;
+
     private bool endGame = false;
 
     private void Awake() {
@@ -31,6 +36,11 @@ public class GameManager : MonoBehaviour {
         if (Time.time > nextRespawn) {
             RespawnEnemy();
             nextRespawn = Time.time + Random.Range(4.0f, 6.0f);
+        }
+
+        if (Time.time > nextPowerUp) {
+            RespawnPowerUp();
+            nextPowerUp = Time.time + Random.Range(24.0f, 36.0f);
         }
 	}
 
@@ -63,6 +73,33 @@ public class GameManager : MonoBehaviour {
             }
 
             GameObject newEnemy = Instantiate(enemy.gameObject, respawnPointPosition, Quaternion.identity) as GameObject;
+        }
+    }
+
+    private void RespawnPowerUp() {
+        if (powerUps.Length > 0) {
+            int index = Random.Range(0, powerUps.Length);
+            PowerUp powerUp = powerUps[index];
+
+            Transform powerUpPoint = null;
+            if (powerUpPoints.Length > 0) {
+                powerUpPoint = powerUpPoints[Random.Range(0, powerUpPoints.Length)];
+            }
+
+            Vector3 powerUpPointPosition;
+            if (powerUpPoint != null) {
+                powerUpPointPosition = powerUpPoint.position;
+            }
+            else {
+                powerUpPointPosition = new Vector3(-7.0f, 7.0f, 0.0f);
+            }
+
+            GameObject newPowerUp = Instantiate(powerUp.gameObject, powerUpPointPosition, Quaternion.identity) as GameObject;
+            Rigidbody2D rigidbody = newPowerUp.GetComponent<Rigidbody2D>();
+            if (rigidbody != null) {
+                float direction = powerUpPointPosition.x > 0.0f ? -1.0f : 1.0f;
+                rigidbody.AddForce(new Vector2(direction * Random.Range(4.0f, 6.0f), Random.Range(5.0f, 6.0f)), ForceMode2D.Impulse);
+            }
         }
     }
 
