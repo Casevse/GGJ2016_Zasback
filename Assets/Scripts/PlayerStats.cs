@@ -15,6 +15,8 @@ public class PlayerStats : MonoBehaviour {
 
 	public int progress;
 
+	public float secondsEffectoDamage =  0.2f;
+
 	private float screenX;
 	private float screenY;
 	private float widthBar;
@@ -22,6 +24,7 @@ public class PlayerStats : MonoBehaviour {
 	private float fatBar;
 
 	private Color colorBar;
+	private bool delayDamage = true;
 
     private float invulnerableTime = 0.0f;
     private SpriteRenderer spriteRenderer;
@@ -100,11 +103,12 @@ public class PlayerStats : MonoBehaviour {
 				else
 					modifyFat+=progress;
 			}else if (modifyFat > 0) {
-				fat+=progress;
 				if (fat >= maxFat)
 					modifyFat = 0;
-				else
-					modifyFat-=progress;
+				else {
+					modifyFat -= progress;
+					fat += progress;
+				}
 			} else
 				modifyFat = 0;
 
@@ -118,10 +122,21 @@ public class PlayerStats : MonoBehaviour {
 	}
 
 	public void RemoveFat(int value){
+
+		if (delayDamage) {
+			modifyFat -= value;
+			delayDamage = false;
+			StartCoroutine(damageEffect() );
+		}
+	
+
 		modifyFat -= value;
         this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
         invulnerableTime = Time.time + 0.5f;
     }
+
+
+
 
 	public bool IsDead(){
 		if (fat <= 0)
@@ -129,5 +144,25 @@ public class PlayerStats : MonoBehaviour {
 		else
 			return false;
 
+	}
+
+	IEnumerator damageEffect(){
+		delayDamage = false;
+		GetComponent<Renderer>().enabled = false;
+		yield return new WaitForSeconds(secondsEffectoDamage/2);
+		GetComponent<Renderer>().enabled = true;
+		yield return new WaitForSeconds(secondsEffectoDamage/2);
+		GetComponent<Renderer>().enabled = false;
+		yield return new WaitForSeconds(secondsEffectoDamage/2);
+		GetComponent<Renderer>().enabled = true;
+		yield return new WaitForSeconds(secondsEffectoDamage);
+		GetComponent<Renderer>().enabled = false;
+		yield return new WaitForSeconds(secondsEffectoDamage);
+		GetComponent<Renderer>().enabled = true;
+		yield return new WaitForSeconds(secondsEffectoDamage);
+		GetComponent<Renderer>().enabled = false;
+		yield return new WaitForSeconds(secondsEffectoDamage);
+		GetComponent<Renderer>().enabled = true;
+		delayDamage = true;
 	}
 }
