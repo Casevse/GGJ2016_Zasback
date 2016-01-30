@@ -16,10 +16,9 @@ public class LogicWall : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D  colision){
-		if (colision.gameObject.tag == "Player") {
-			//float speed = player.getSpeed ();
 
-			float speed=2;
+		if (colision.gameObject.tag == "Player") {
+			float speed = colision.gameObject.GetComponent<Player>().normalSpeed;
 
 			key.GetComponent<LogicKey>().DownKey (speed);
 		}
