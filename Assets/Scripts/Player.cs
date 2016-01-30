@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
-    public bool movingRight = true;
+    public bool movingRight = false;
     public float normalSpeed = 6.0f;
     public float jumpSpeed = 6.0f;
     private Animator animator;
@@ -30,6 +30,7 @@ public class Player : MonoBehaviour {
 
     private void Awake() {
         playerStats = GetComponent<PlayerStats>();
+        animator = GetComponent<Animator>();
     }
 
 	private void Start() {
@@ -86,6 +87,11 @@ public class Player : MonoBehaviour {
                 if (flipPhase == FlipPhase.TOUCHING) {
                     flipPhase = FlipPhase.FLIPPLING;
                     movingRight = !movingRight;
+
+                    Vector3 theScale = transform.localScale;
+                    theScale.x *= -1;
+                    transform.localScale = theScale;
+
                     nextFlipPhase = Time.time + 1.0f;
                 }
                 else if (!jumping) {

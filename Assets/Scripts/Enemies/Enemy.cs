@@ -46,6 +46,7 @@ public class Enemy : MonoBehaviour {
             // Kill the enemy.
             // TODO: Animación de muerte para cada enemigo.
             Destroy(this.gameObject);
+            GameManager.enemiesAlive--;
         }
 	}
 	public int getLife(){
@@ -89,18 +90,23 @@ public class Enemy : MonoBehaviour {
 
 	protected void OnCollisionEnter2D (Collision2D col)
 	{
-		if (col.gameObject.tag == "Floor" && !onFloor) {
-			onFloor = true;
-		} else if (col.gameObject.tag == "Wall") {
-			side = !side;
-		} else if(col.gameObject.tag == "Player"){
-			PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
-			if(stats != null){
-				stats.RemoveFat(damage);
-				timeDamage = Time.time;
-			}
-		}
-	}
+        if (col.gameObject.tag == "Floor" && !onFloor) {
+            onFloor = true;
+        } else if (col.gameObject.tag == "Wall") {
+            side = !side;
+        } else if (col.gameObject.tag == "Player") {
+            PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
+            if (stats != null) {
+                stats.RemoveFat(damage);
+                timeDamage = Time.time;
+            }
+        }
+        else if (col.gameObject.tag == "Enemy") {
+            if (col.contacts[0].normal.y != -1.0f) {
+                side = !side;
+            }
+        }
+    }
 
 	protected void OnCollisionStay2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Player") {
@@ -111,6 +117,17 @@ public class Enemy : MonoBehaviour {
 					timeDamage = Time.time;
 				}
 			}
-		}
+		} else if (coll.gameObject.tag == "Enemy") {
+            if (coll.contacts[0].normal.y == -1.0f) {
+                Rigidbody2D rigidbody2D = coll.gameObject.GetComponent<Rigidbody2D>();
+                if (rigidbody2D != null) {
+                    if (side) {
+                        rigidbody2D.AddForce(new Vector2(-100.0f, 100.0f));
+                    } else {
+                        rigidbody2D.AddForce(new Vector2(100.0f, 100.0f));
+                    }
+                }
+            }
+        }
 	}
 }

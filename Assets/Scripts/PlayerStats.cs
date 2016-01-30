@@ -26,9 +26,11 @@ public class PlayerStats : MonoBehaviour {
 
     private float invulnerableTime = 0.0f;
     private SpriteRenderer spriteRenderer;
+    private Player player;
 
     private void Awake() {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        player = GetComponent<Player>();
     }
 
 	// Use this for initialization
@@ -60,8 +62,8 @@ public class PlayerStats : MonoBehaviour {
         }
 
 		if (IsDead ()) {
-			Debug.Log ("Has muerto");
-		} else {
+            Destroy(this.gameObject);
+        } else {
 			barFull.rectTransform.sizeDelta = new Vector2 ((widthBar * fat) / 100,heightBar);
 			if (fat > maxFat / 2) {
 				float g = (164 * (maxFat - fat) / 50 + 47);
@@ -108,17 +110,16 @@ public class PlayerStats : MonoBehaviour {
 	}
 
 	public void RemoveFat(int value){
-		modifyFat -= value;
-		SoundSingleton.Singleton.PlayHitPlayer ();
-        this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
-        invulnerableTime = Time.time + 0.5f;
+        if (player.attackPhase != Player.AttackPhase.END) {
+            modifyFat -= value;
+            SoundSingleton.Singleton.PlayHitPlayer();
+            this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
+            invulnerableTime = Time.time + 0.5f;
+        }
     }
 
-
-
-
 	public bool IsDead(){
-		if (fat <= 0)
+        if (fat <= 0)
 			return true;
 		else
 			return false;
