@@ -11,6 +11,11 @@ public class PowerUp : MonoBehaviour {
 
 	private Renderer renderer;
 	private int valueFat;
+    private Rigidbody2D rigidbody;
+
+    private void Awake() {
+        rigidbody = GetComponent<Rigidbody2D>();
+    }
 
 	// Use this for initialization
 	void Start () {
@@ -54,4 +59,28 @@ public class PowerUp : MonoBehaviour {
 			Destroy (this.gameObject);
 		} 
 	}
+
+    protected void OnCollisionStay2D(Collision2D coll) {
+        if (coll.gameObject.tag == "Enemy") {
+            if (coll.contacts[0].normal.y == -1.0f) {
+                Rigidbody2D rigidbody2D = coll.gameObject.GetComponent<Rigidbody2D>();
+                if (rigidbody2D != null) {
+                    if (transform.position.x > coll.gameObject.transform.position.x) {
+                        rigidbody2D.AddForce(new Vector2(-100.0f, 100.0f));
+                    }
+                    else {
+                        rigidbody2D.AddForce(new Vector2(100.0f, 100.0f));
+                    }
+                }
+            } else if (coll.contacts[0].normal.y == 1.0f) {
+                if (transform.position.x < coll.gameObject.transform.position.x) {
+                    rigidbody.AddForce(new Vector2(-100.0f, 100.0f));
+                }
+                else {
+                    rigidbody.AddForce(new Vector2(100.0f, 100.0f));
+                }
+            }
+        }
+    }
+
 }

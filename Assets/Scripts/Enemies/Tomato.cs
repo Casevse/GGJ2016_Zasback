@@ -24,7 +24,8 @@ public class Tomato : Enemy {
 	
 	// Update is called once per frame
 	void Update () {
-		if (falling && onFloor) {
+        if (GameManager.endGame) return;
+        if (falling && onFloor) {
 			rigidBody.gravityScale -= fallSpeed;
 			falling = false;
 		} else if (!falling && onFloor && (Time.time - timeJump) > delayJump) {
@@ -62,6 +63,22 @@ public class Tomato : Enemy {
 					timeDamage = Time.time;
 				}
 			}
-		}
-	}
+        }
+        else if (coll.gameObject.tag == "Enemy") {
+            if (coll.contacts[0].normal.y == -1.0f) {
+                Rigidbody2D rigidbody2D = coll.gameObject.GetComponent<Rigidbody2D>();
+                if (rigidbody2D != null) {
+                    if (side) {
+                        rigidbody2D.AddForce(new Vector2(-100.0f, 100.0f));
+                    }
+                    else {
+                        rigidbody2D.AddForce(new Vector2(100.0f, 100.0f));
+                    }
+                }
+            }
+            else {
+                side = !side;
+            }
+        }
+    }
 }

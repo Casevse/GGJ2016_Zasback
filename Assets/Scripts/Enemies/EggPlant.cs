@@ -14,7 +14,8 @@ public class EggPlant : Enemy {
 	
 	// Update is called once per frame
 	void Update () {
-		if (falling && onFloor) {
+        if (GameManager.endGame) return;
+        if (falling && onFloor) {
 			rigidBody.gravityScale -= fallSpeed;
 			falling = false;
 		} else if (!falling && onFloor) {

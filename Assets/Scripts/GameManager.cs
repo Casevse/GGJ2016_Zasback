@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour {
     public Button btnReplay;
     public Button btnExit;
 
+    public static int enemiesAlive = 0;
+    public static bool endGame = false;
+
     // Enemies generator.
     public Enemy[] enemies;
     private float nextRespawn;
@@ -18,12 +21,11 @@ public class GameManager : MonoBehaviour {
     private float nextPowerUp;
     public Transform[] powerUpPoints;
 
-    private bool endGame = false;
-
     private void Awake() {
         endGame = false;
         btnReplay.gameObject.SetActive(false);
         btnExit.gameObject.SetActive(false);
+        enemiesAlive = 0;
     }
 	
 	private void Update() {
@@ -33,9 +35,14 @@ public class GameManager : MonoBehaviour {
             btnExit.gameObject.SetActive(true);
         }
 
-        if (Time.time > nextRespawn) {
+        if (endGame) {
+            return;
+        }
+
+        if (Time.time > nextRespawn && enemiesAlive < 7) {
             RespawnEnemy();
             nextRespawn = Time.time + Random.Range(4.0f, 6.0f);
+            enemiesAlive++;
         }
 
         if (Time.time > nextPowerUp) {
