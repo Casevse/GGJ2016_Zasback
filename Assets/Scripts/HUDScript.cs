@@ -37,6 +37,10 @@ public class HUDScript : MonoBehaviour {
 		Application.Quit();
 	}
 
+	public void buttonReturn(){
+		Application.LoadLevel("Menu");
+	}
+
 	public void buttonEffects(){
 		int effectsQuit = PlayerPrefs.GetInt ("Effects");
 		Image image;

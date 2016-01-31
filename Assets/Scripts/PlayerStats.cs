@@ -42,7 +42,7 @@ public class PlayerStats : MonoBehaviour {
 		colorBar.b = ((float)(47*100)/255)/100;
 		colorBar.a = ((float)(255*100)/255)/100;
 
-		barText.text = "Grasiento";
+		barText.text = "Greasy";
 	}
 	
 	// Update is called once per frame
@@ -59,9 +59,7 @@ public class PlayerStats : MonoBehaviour {
             spriteRenderer.color = color;
         }
 
-		if (IsDead ()) {
-			Debug.Log ("Has muerto");
-		} else {
+		if (!IsDead ()) {
 			barFull.rectTransform.sizeDelta = new Vector2 ((widthBar * fat) / 100,heightBar);
 			if (fat > maxFat / 2) {
 				float g = (164 * (maxFat - fat) / 50 + 47);
@@ -74,13 +72,13 @@ public class PlayerStats : MonoBehaviour {
 			barFull.color =colorBar;
 
 			if(fat >= maxFat*0.75 )
-				barText.text = "Grasiento";
+				barText.text = "Greasy";
 			else if(fat >= maxFat*0.5 )
-				barText.text = "Gordo";
+				barText.text = "Fat";
 			else if(fat >= maxFat*0.25 ) 
 				barText.text = "Normal";
 			else
-				barText.text = "Flaco";
+				barText.text = "Thin";
 			
 			if (modifyFat < 0) {
 				fat -=progress;
