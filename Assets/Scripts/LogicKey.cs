@@ -9,7 +9,6 @@ public class LogicKey : MonoBehaviour {
 	private float movDown;
 	private Rigidbody2D rigidbody;
 
-
 	public enum KeyPhase {
 		NONE, JUMP, END
 	}
@@ -17,16 +16,11 @@ public class LogicKey : MonoBehaviour {
 	private KeyPhase keyPhase;
 	private float force;
 
-
-
-	// Use this for initialization
 	void Start () {
-		//movDown = 0.0f;
 		rigidbody = this.GetComponent<Rigidbody2D> ();
 		keyPhase = KeyPhase.NONE;
 	}
 
-	// Update is called once per frame
 	void Update () {
 
 		if (keyPhase != KeyPhase.END) {
@@ -36,35 +30,25 @@ public class LogicKey : MonoBehaviour {
 				keyPhase = KeyPhase.NONE;
 			}
 		}
-
-
-		/*	 
-
-		if (movDown > 0.0f) {
-
-
-			//this.GetComponent<Rigidbody2D> ().isKinematic = false;
-
-			//this.transform.position = new Vector2 (this.transform.position.x, this.transform.position.y - movDown * Time.deltaTime);
-			movDown -= 0.1f;
-		} else {
-			//this.GetComponent<Rigidbody2D> ().isKinematic = true;
-			movDown = 0.0f;
-		}*/
-
 	}
 
 	public void DownKey(float speed){
-		//rate = rate + (speed / 10);
 		keyPhase = KeyPhase.JUMP;
 		force = jumpForce+(speed/10);
-		//movDown = rate;
-
 	}
+
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.tag == "Floor") {
+            GetComponent<BoxCollider2D>().isTrigger = true;
+            GetComponent<Rigidbody2D>().isKinematic = true;
+        }
+    }
 
 	void OnTriggerEnter2D(Collider2D  colision){
 		if (colision.gameObject.tag == "Player") {
-			Debug.Log ("Fin deljuego");
+            GameManager.hasWin = true;
+            SoundSingleton.Singleton.PlayKey();
+            Destroy(this.gameObject);
 			keyPhase = KeyPhase.END;
 		}
 	}

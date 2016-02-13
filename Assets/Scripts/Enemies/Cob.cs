@@ -7,16 +7,25 @@ public class Cob : Enemy {
 	private float timeShoot;
 	private float delayShoot;
 	public GameObject bullet;
-	public int bulletSpeed;
+	public float bulletSpeed;
 
 	// Use this for initialization
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D>();
-		initEnemy (1, 1.5f, 1, 1f);
+		initEnemy ();
 		rigidBody.gravityScale += fallSpeed;
 		timeShoot = Time.time;
-		delayShoot = 2.0f;
-		bulletSpeed = 4;
+
+        //Tiempo de disparo aleatorio
+        float randDelay = Random.Range(3.0f, 4.0f);
+		delayShoot = randDelay - (0.1f * numberRound);
+        if(delayShoot < 2.0f) {
+            delayShoot = 2.0f;
+        }
+
+        //Velocidad de la bala
+        float randBullet = Random.Range(6.0f, 8.0f);
+		bulletSpeed = randBullet;
 	}
 	
 	// Update is called once per frame
@@ -43,15 +52,13 @@ public class Cob : Enemy {
 	void shoot(bool s){
 		GameObject clone;
 		if (s) {
-			Vector3 aux = new Vector3(transform.position.x + 0.75f, transform.position.y, 0.0f);
+			Vector3 aux = new Vector3(transform.position.x + 0.5f, transform.position.y, 0.0f);
 			clone = Instantiate (bullet, aux, transform.rotation) as GameObject;
-			clone.GetComponent<Rigidbody2D>().velocity = new Vector2(4.0f, 0.0f);
-            Destroy(clone.gameObject, 4.0f);
-        } else {
-			Vector3 aux = new Vector3(transform.position.x - 0.75f, transform.position.y, 0.0f);
+			clone.GetComponent<Rigidbody2D>().velocity = new Vector2(bulletSpeed, 0.0f);
+		} else {
+			Vector3 aux = new Vector3(transform.position.x - 0.5f, transform.position.y, 0.0f);
 			clone = Instantiate (bullet, aux, transform.rotation) as GameObject;
-			clone.GetComponent<Rigidbody2D>().velocity = new Vector2(-4.0f, 0.0f);
-            Destroy(clone.gameObject, 4.0f);
+			clone.GetComponent<Rigidbody2D>().velocity = new Vector2(-bulletSpeed, 0.0f);
 		}
 	}
 }

@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: faa8aaa5200897241b58a52e1f83d2df
+timeCreated: 1454179371
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Andar_0
+    21300002: Andar_1
+    21300004: Andar_2
+    21300006: Andar_3
+    21300008: Andar_4
+    21300010: Andar_5
+    21300012: Andar_6
+    21300014: Andar_7
+    21300016: Andar_8
+    21300018: Andar_9
+    21300020: Andar_10
+    21300022: Andar_11
+    21300024: Andar_12
+    21300026: Andar_13
+    21300028: Andar_14
+    21300030: Andar_15
+    21300032: Andar_16
+    21300034: Andar_17
+    21300036: Andar_18
+    21300038: Andar_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Andar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 51}
+        - {x: -39, y: 21}
+        - {x: -39, y: -28}
+        - {x: -26, y: -49}
+        - {x: 34, y: -49}
+        - {x: 47, y: -27}
+        - {x: 47, y: 47}
+        - {x: 36, y: 51}
+    - name: Andar_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 51}
+        - {x: -39, y: 24}
+        - {x: -39, y: -8}
+        - {x: -27, y: -49}
+        - {x: 28, y: -49}
+        - {x: 47, y: -21}
+        - {x: 47, y: 30}
+        - {x: 33, y: 51}
+    - name: Andar_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 51}
+        - {x: -33, y: 50}
+        - {x: -39, y: 26}
+        - {x: -39, y: -26}
+        - {x: -29, y: -50}
+        - {x: 46, y: -50}
+        - {x: 47, y: -42}
+        - {x: 47, y: 47}
+        - {x: 42, y: 51}
+    - name: Andar_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 51}
+        - {x: -39, y: 19}
+        - {x: -39, y: -30}
+        - {x: -23, y: -51}
+        - {x: 47, y: -51}
+        - {x: 47, y: 44}
+        - {x: 15, y: 51}
+    - name: Andar_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 51}
+        - {x: -39, y: 24}
+        - {x: -39, y: -16}
+        - {x: -29, y: -52}
+        - {x: 35, y: -52}
+        - {x: 46, y: -23}
+        - {x: 46, y: 47}
+        - {x: 38, y: 51}
+    - name: Andar_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 51}
+        - {x: -39, y: 24}
+        - {x: -39, y: -16}
+        - {x: -29, y: -52}
+        - {x: 35, y: -52}
+        - {x: 46, y: -23}
+        - {x: 46, y: 47}
+        - {x: 38, y: 51}
+    - name: Andar_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    - name: Andar_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 51}
+        - {x: -12, y: 51}
+        - {x: -39, y: 22}
+        - {x: -39, y: -11}
+        - {x: -26, y: -52}
+        - {x: 26, y: -52}
+        - {x: 42, y: -41}
+        - {x: 46, y: -22}
+        - {x: 46, y: 41}
+    - name: Andar_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 51}
+        - {x: -13, y: 51}
+        - {x: -39, y: 26}
+        - {x: -39, y: -22}
+        - {x: -31, y: -52}
+        - {x: 17, y: -52}
+        - {x: 46, y: -40}
+        - {x: 47, y: -25}
+        - {x: 47, y: 39}
+    - name: Andar_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 51}
+        - {x: -39, y: 19}
+        - {x: -39, y: -30}
+        - {x: -23, y: -51}
+        - {x: 47, y: -51}
+        - {x: 47, y: 44}
+        - {x: 15, y: 51}
+    - name: Andar_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 51}
+        - {x: -39, y: 35}
+        - {x: -39, y: -29}
+        - {x: -33, y: -52}
+        - {x: 11, y: -52}
+        - {x: 47, y: -38}
+        - {x: 47, y: 43}
+        - {x: 33, y: 51}
+    - name: Andar_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 51}
+        - {x: -39, y: 19}
+        - {x: -39, y: -34}
+        - {x: -29, y: -52}
+        - {x: 7, y: -52}
+        - {x: 47, y: -44}
+        - {x: 47, y: 42}
+        - {x: 30, y: 51}
+    - name: Andar_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 51}
+        - {x: -39, y: 20}
+        - {x: -39, y: -48}
+        - {x: -38, y: -52}
+        - {x: 26, y: -52}
+        - {x: 47, y: -31}
+        - {x: 47, y: 37}
+        - {x: 26, y: 51}
+    - name: Andar_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 51}
+        - {x: -39, y: 19}
+        - {x: -39, y: -34}
+        - {x: -29, y: -52}
+        - {x: 7, y: -52}
+        - {x: 47, y: -44}
+        - {x: 47, y: 42}
+        - {x: 30, y: 51}
+    - name: Andar_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 51}
+        - {x: -33, y: 50}
+        - {x: -39, y: 26}
+        - {x: -39, y: -26}
+        - {x: -29, y: -50}
+        - {x: 46, y: -50}
+        - {x: 47, y: -42}
+        - {x: 47, y: 47}
+        - {x: 42, y: 51}
+    - name: Andar_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 51}
+        - {x: -39, y: 35}
+        - {x: -39, y: -29}
+        - {x: -33, y: -52}
+        - {x: 11, y: -52}
+        - {x: 47, y: -38}
+        - {x: 47, y: 43}
+        - {x: 33, y: 51}
+    - name: Andar_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 51}
+        - {x: -13, y: 51}
+        - {x: -39, y: 26}
+        - {x: -39, y: -22}
+        - {x: -31, y: -52}
+        - {x: 17, y: -52}
+        - {x: 46, y: -40}
+        - {x: 47, y: -25}
+        - {x: 47, y: 39}
+    - name: Andar_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 51}
+        - {x: -12, y: 51}
+        - {x: -39, y: 22}
+        - {x: -39, y: -11}
+        - {x: -26, y: -52}
+        - {x: 26, y: -52}
+        - {x: 42, y: -41}
+        - {x: 46, y: -22}
+        - {x: 46, y: 41}
+    - name: Andar_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    - name: Andar_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 51}
+        - {x: -39, y: 24}
+        - {x: -39, y: -8}
+        - {x: -27, y: -49}
+        - {x: 28, y: -49}
+        - {x: 47, y: -21}
+        - {x: 47, y: 30}
+        - {x: 33, y: 51}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

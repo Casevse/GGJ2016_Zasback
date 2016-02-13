@@ -1,0 +1,3244 @@
+fileFormatVersion: 2
+guid: e75267da30a739948a61c64ac8225c28
+timeCreated: 1454235009
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shaman_sheet_0
+    21300002: shaman_sheet_1
+    21300004: shaman_sheet_2
+    21300006: shaman_sheet_3
+    21300008: shaman_sheet_4
+    21300010: shaman_sheet_5
+    21300012: shaman_sheet_6
+    21300014: shaman_sheet_7
+    21300016: shaman_sheet_8
+    21300018: shaman_sheet_9
+    21300020: shaman_sheet_10
+    21300022: shaman_sheet_11
+    21300024: shaman_sheet_12
+    21300026: shaman_sheet_13
+    21300028: shaman_sheet_14
+    21300030: shaman_sheet_15
+    21300032: shaman_sheet_16
+    21300034: shaman_sheet_17
+    21300036: shaman_sheet_18
+    21300038: shaman_sheet_19
+    21300040: shaman_sheet_20
+    21300042: shaman_sheet_21
+    21300044: shaman_sheet_22
+    21300046: shaman_sheet_23
+    21300048: shaman_sheet_24
+    21300050: shaman_sheet_25
+    21300052: shaman_sheet_26
+    21300054: shaman_sheet_27
+    21300056: shaman_sheet_28
+    21300058: shaman_sheet_29
+    21300060: shaman_sheet_30
+    21300062: shaman_sheet_31
+    21300064: shaman_sheet_32
+    21300066: shaman_sheet_33
+    21300068: shaman_sheet_34
+    21300070: shaman_sheet_35
+    21300072: shaman_sheet_36
+    21300074: shaman_sheet_37
+    21300076: shaman_sheet_38
+    21300078: shaman_sheet_39
+    21300080: shaman_sheet_40
+    21300082: shaman_sheet_41
+    21300084: shaman_sheet_42
+    21300086: shaman_sheet_43
+    21300088: shaman_sheet_44
+    21300090: shaman_sheet_45
+    21300092: shaman_sheet_46
+    21300094: shaman_sheet_47
+    21300096: shaman_sheet_48
+    21300098: shaman_sheet_49
+    21300100: shaman_sheet_50
+    21300102: shaman_sheet_51
+    21300104: shaman_sheet_52
+    21300106: shaman_sheet_53
+    21300108: shaman_sheet_54
+    21300110: shaman_sheet_55
+    21300112: shaman_sheet_56
+    21300114: shaman_sheet_57
+    21300116: shaman_sheet_58
+    21300118: shaman_sheet_59
+    21300120: shaman_sheet_60
+    21300122: shaman_sheet_61
+    21300124: shaman_sheet_62
+    21300126: shaman_sheet_63
+    21300128: shaman_sheet_64
+    21300130: shaman_sheet_65
+    21300132: shaman_sheet_66
+    21300134: shaman_sheet_67
+    21300136: shaman_sheet_68
+    21300138: shaman_sheet_69
+    21300140: shaman_sheet_70
+    21300142: shaman_sheet_71
+    21300144: shaman_sheet_72
+    21300146: shaman_sheet_73
+    21300148: shaman_sheet_74
+    21300150: shaman_sheet_75
+    21300152: shaman_sheet_76
+    21300154: shaman_sheet_77
+    21300156: shaman_sheet_78
+    21300158: shaman_sheet_79
+    21300160: shaman_sheet_80
+    21300162: shaman_sheet_81
+    21300164: shaman_sheet_82
+    21300166: shaman_sheet_83
+    21300168: shaman_sheet_84
+    21300170: shaman_sheet_85
+    21300172: shaman_sheet_86
+    21300174: shaman_sheet_87
+    21300176: shaman_sheet_88
+    21300178: shaman_sheet_89
+    21300180: shaman_sheet_90
+    21300182: shaman_sheet_91
+    21300184: shaman_sheet_92
+    21300186: shaman_sheet_93
+    21300188: shaman_sheet_94
+    21300190: shaman_sheet_95
+    21300192: shaman_sheet_96
+    21300194: shaman_sheet_97
+    21300196: shaman_sheet_98
+    21300198: shaman_sheet_99
+    21300200: shaman_sheet_100
+    21300202: shaman_sheet_101
+    21300204: shaman_sheet_102
+    21300206: shaman_sheet_103
+    21300208: shaman_sheet_104
+    21300210: shaman_sheet_105
+    21300212: shaman_sheet_106
+    21300214: shaman_sheet_107
+    21300216: shaman_sheet_108
+    21300218: shaman_sheet_109
+    21300220: shaman_sheet_110
+    21300222: shaman_sheet_111
+    21300224: shaman_sheet_112
+    21300226: shaman_sheet_113
+    21300228: shaman_sheet_114
+    21300230: shaman_sheet_115
+    21300232: shaman_sheet_116
+    21300234: shaman_sheet_117
+    21300236: shaman_sheet_118
+    21300238: shaman_sheet_119
+    21300240: shaman_sheet_120
+    21300242: shaman_sheet_121
+    21300244: shaman_sheet_122
+    21300246: shaman_sheet_123
+    21300248: shaman_sheet_124
+    21300250: shaman_sheet_125
+    21300252: shaman_sheet_126
+    21300254: shaman_sheet_127
+    21300256: shaman_sheet_128
+    21300258: shaman_sheet_129
+    21300260: shaman_sheet_130
+    21300262: shaman_sheet_131
+    21300264: shaman_sheet_132
+    21300266: shaman_sheet_133
+    21300268: shaman_sheet_134
+    21300270: shaman_sheet_135
+    21300272: shaman_sheet_136
+    21300274: shaman_sheet_137
+    21300276: shaman_sheet_138
+    21300278: shaman_sheet_139
+    21300280: shaman_sheet_140
+    21300282: shaman_sheet_141
+    21300284: shaman_sheet_142
+    21300286: shaman_sheet_143
+    21300288: shaman_sheet_144
+    21300290: shaman_sheet_145
+    21300292: shaman_sheet_146
+    21300294: shaman_sheet_147
+    21300296: shaman_sheet_148
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: shaman_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 39}
+        - {x: -22, y: 37}
+        - {x: -39, y: 32}
+        - {x: -39, y: -44}
+        - {x: -27, y: -50}
+        - {x: 26, y: -50}
+        - {x: 48, y: -14}
+        - {x: 48, y: 15}
+        - {x: 10, y: 39}
+    - name: shaman_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 20}
+        - {x: 29, y: 10}
+        - {x: 28, y: 7}
+        - {x: 17, y: 38}
+        - {x: -26, y: 38}
+        - {x: -39, y: 25}
+        - {x: -39, y: -44}
+        - {x: -38, y: -51}
+        - {x: 30, y: -51}
+        - {x: 48, y: 4}
+        - {x: 48, y: 16}
+        - {x: 41, y: 20}
+    - name: shaman_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 38}
+        - {x: -39, y: 15}
+        - {x: -39, y: -30}
+        - {x: -29, y: -51}
+        - {x: 21, y: -51}
+        - {x: 35, y: -46}
+        - {x: 50, y: -4}
+        - {x: 50, y: 16}
+        - {x: 9, y: 38}
+    - name: shaman_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 0}
+        - {x: 54, y: 9}
+        - {x: 39, y: 17}
+        - {x: 15, y: 37}
+        - {x: -28, y: 37}
+        - {x: -39, y: 5}
+        - {x: -39, y: -34}
+        - {x: -34, y: -45}
+        - {x: -20, y: -53}
+        - {x: 1, y: -53}
+        - {x: 9, y: -47}
+        - {x: 27, y: -47}
+        - {x: 33, y: -41}
+    - name: shaman_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 37}
+        - {x: -11, y: 37}
+        - {x: -21, y: 35}
+        - {x: -39, y: 5}
+        - {x: -39, y: -23}
+        - {x: -30, y: -50}
+        - {x: -21, y: -54}
+        - {x: 21, y: -54}
+        - {x: 40, y: -47}
+        - {x: 56, y: -9}
+        - {x: 56, y: 4}
+        - {x: 49, y: 14}
+    - name: shaman_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 4}
+        - {x: 47, y: 12}
+        - {x: 41, y: 12}
+        - {x: 14, y: 37}
+        - {x: -17, y: 37}
+        - {x: -28, y: 34}
+        - {x: -39, y: 9}
+        - {x: -39, y: -22}
+        - {x: -29, y: -51}
+        - {x: -13, y: -54}
+        - {x: 5, y: -54}
+        - {x: 8, y: -51}
+        - {x: 33, y: -44}
+        - {x: 55, y: 0}
+    - name: shaman_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 37}
+        - {x: -22, y: 37}
+        - {x: -27, y: 34}
+        - {x: -39, y: 9}
+        - {x: -39, y: -47}
+        - {x: -25, y: -52}
+        - {x: 20, y: -52}
+        - {x: 32, y: -44}
+        - {x: 54, y: -17}
+        - {x: 54, y: 19}
+    - name: shaman_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 20}
+        - {x: 7, y: 38}
+        - {x: -16, y: 38}
+        - {x: -31, y: 31}
+        - {x: -39, y: 13}
+        - {x: -39, y: -37}
+        - {x: -32, y: -51}
+        - {x: 44, y: -51}
+        - {x: 52, y: -10}
+        - {x: 52, y: 10}
+        - {x: 46, y: 22}
+    - name: shaman_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 38}
+        - {x: -39, y: 20}
+        - {x: -39, y: -36}
+        - {x: -30, y: -50}
+        - {x: 29, y: -50}
+        - {x: 52, y: 0}
+        - {x: 52, y: 17}
+        - {x: 25, y: 38}
+    - name: shaman_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1680
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 27}
+        - {x: 17, y: 39}
+        - {x: -21, y: 39}
+        - {x: -39, y: 17}
+        - {x: -39, y: -31}
+        - {x: -28, y: -50}
+        - {x: 14, y: -50}
+        - {x: 25, y: -46}
+        - {x: 31, y: -33}
+        - {x: 52, y: 4}
+        - {x: 52, y: 13}
+    - name: shaman_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 17}
+        - {x: 32, y: 12}
+        - {x: 9, y: 39}
+        - {x: -33, y: 39}
+        - {x: -39, y: 12}
+        - {x: -39, y: -50}
+        - {x: 21, y: -50}
+        - {x: 52, y: -2}
+        - {x: 52, y: 16}
+        - {x: 45, y: 18}
+    - name: shaman_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 38}
+        - {x: -26, y: 38}
+        - {x: -39, y: 13}
+        - {x: -39, y: -39}
+        - {x: -31, y: -50}
+        - {x: 21, y: -50}
+        - {x: 26, y: -48}
+        - {x: 51, y: 6}
+        - {x: 51, y: 13}
+        - {x: 45, y: 21}
+    - name: shaman_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 20}
+        - {x: 11, y: 38}
+        - {x: -24, y: 38}
+        - {x: -38, y: 16}
+        - {x: -39, y: 14}
+        - {x: -39, y: -51}
+        - {x: 38, y: -51}
+        - {x: 52, y: 8}
+        - {x: 52, y: 12}
+        - {x: 43, y: 21}
+    - name: shaman_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 18}
+        - {x: 10, y: 37}
+        - {x: -25, y: 37}
+        - {x: -39, y: 17}
+        - {x: -39, y: -39}
+        - {x: -30, y: -51}
+        - {x: 30, y: -51}
+        - {x: 53, y: 1}
+        - {x: 53, y: 12}
+    - name: shaman_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 14}
+        - {x: 41, y: 13}
+        - {x: 15, y: 36}
+        - {x: -14, y: 36}
+        - {x: -26, y: 31}
+        - {x: -39, y: -5}
+        - {x: -39, y: -52}
+        - {x: 21, y: -52}
+        - {x: 30, y: -48}
+        - {x: 55, y: -5}
+        - {x: 55, y: 6}
+    - name: shaman_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 36}
+        - {x: -37, y: 33}
+        - {x: -39, y: 21}
+        - {x: -39, y: -53}
+        - {x: 31, y: -53}
+        - {x: 56, y: -15}
+        - {x: 56, y: 16}
+        - {x: 16, y: 36}
+    - name: shaman_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 36}
+        - {x: -39, y: 22}
+        - {x: -39, y: -26}
+        - {x: -36, y: -48}
+        - {x: -24, y: -53}
+        - {x: 18, y: -53}
+        - {x: 35, y: -42}
+        - {x: 55, y: -12}
+        - {x: 55, y: 16}
+        - {x: 36, y: 36}
+    - name: shaman_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 16}
+        - {x: 22, y: 37}
+        - {x: -21, y: 37}
+        - {x: -39, y: 3}
+        - {x: -39, y: -27}
+        - {x: -34, y: -44}
+        - {x: -28, y: -51}
+        - {x: 34, y: -51}
+        - {x: 54, y: 1}
+        - {x: 54, y: 9}
+        - {x: 43, y: 16}
+    - name: shaman_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 28}
+        - {x: 13, y: 37}
+        - {x: -33, y: 37}
+        - {x: -39, y: 33}
+        - {x: -39, y: -51}
+        - {x: 31, y: -51}
+        - {x: 52, y: -2}
+        - {x: 52, y: 11}
+        - {x: 46, y: 21}
+    - name: shaman_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1560
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -45}
+        - {x: 52, y: 2}
+        - {x: 52, y: 38}
+        - {x: -26, y: 38}
+        - {x: -39, y: 15}
+        - {x: -39, y: -13}
+        - {x: -32, y: -19}
+        - {x: -26, y: -23}
+        - {x: -32, y: -39}
+        - {x: -20, y: -50}
+        - {x: -13, y: -50}
+        - {x: -8, y: -45}
+        - {x: -1, y: -47}
+        - {x: 27, y: -49}
+    - name: shaman_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52, y: 13}
+        - {x: 43, y: 20}
+        - {x: 40, y: 19}
+        - {x: 16, y: 39}
+        - {x: -25, y: 39}
+        - {x: -39, y: 12}
+        - {x: -39, y: -26}
+        - {x: -35, y: -37}
+        - {x: -21, y: -50}
+        - {x: 0, y: -50}
+        - {x: 27, y: -47}
+        - {x: 52, y: 9}
+    - name: shaman_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 17}
+        - {x: 32, y: 12}
+        - {x: 9, y: 39}
+        - {x: -33, y: 39}
+        - {x: -39, y: 12}
+        - {x: -39, y: -50}
+        - {x: 21, y: -50}
+        - {x: 52, y: -2}
+        - {x: 52, y: 16}
+        - {x: 45, y: 18}
+    - name: shaman_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 38}
+        - {x: -39, y: 34}
+        - {x: -39, y: -28}
+        - {x: -38, y: -37}
+        - {x: -23, y: -50}
+        - {x: -3, y: -50}
+        - {x: 29, y: -42}
+        - {x: 51, y: 7}
+        - {x: 51, y: 15}
+        - {x: 26, y: 38}
+    - name: shaman_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 27}
+        - {x: 4, y: 38}
+        - {x: -24, y: 38}
+        - {x: -39, y: 26}
+        - {x: -39, y: -41}
+        - {x: -23, y: -50}
+        - {x: 19, y: -50}
+        - {x: 37, y: -41}
+        - {x: 49, y: 4}
+        - {x: 49, y: 15}
+    - name: shaman_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 21}
+        - {x: 29, y: 18}
+        - {x: 24, y: 7}
+        - {x: 24, y: 10}
+        - {x: 22, y: 30}
+        - {x: 7, y: 36}
+        - {x: -27, y: 36}
+        - {x: -38, y: 29}
+        - {x: -39, y: 19}
+        - {x: -39, y: -38}
+        - {x: -26, y: -51}
+        - {x: 37, y: -51}
+        - {x: 45, y: -22}
+        - {x: 45, y: 18}
+        - {x: 43, y: 20}
+    - name: shaman_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -51}
+        - {x: 36, y: -51}
+        - {x: 40, y: -31}
+        - {x: 40, y: 27}
+        - {x: 25, y: 35}
+        - {x: -35, y: 35}
+        - {x: -39, y: 19}
+        - {x: -39, y: -29}
+        - {x: -33, y: -40}
+        - {x: -25, y: -51}
+        - {x: 10, y: -51}
+        - {x: 23, y: -48}
+        - {x: 24, y: -42}
+        - {x: 24, y: -38}
+        - {x: 24, y: -41}
+    - name: shaman_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -49}
+        - {x: 40, y: -46}
+        - {x: 40, y: 5}
+        - {x: 36, y: 25}
+        - {x: 16, y: 33}
+        - {x: -24, y: 33}
+        - {x: -39, y: 8}
+        - {x: -39, y: -32}
+        - {x: -32, y: -48}
+        - {x: -26, y: -51}
+        - {x: 21, y: -51}
+        - {x: 23, y: -50}
+        - {x: 24, y: -44}
+        - {x: 24, y: -39}
+    - name: shaman_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: -53}
+        - {x: 15, y: -53}
+        - {x: 42, y: -47}
+        - {x: 42, y: -21}
+        - {x: 32, y: 23}
+        - {x: 17, y: 32}
+        - {x: -16, y: 32}
+        - {x: -39, y: 21}
+    - name: shaman_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 31}
+        - {x: -39, y: 31}
+        - {x: -39, y: -51}
+        - {x: -31, y: -55}
+        - {x: 44, y: -55}
+        - {x: 44, y: 15}
+        - {x: 40, y: 27}
+    - name: shaman_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1440
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 30}
+        - {x: -25, y: 30}
+        - {x: -39, y: 7}
+        - {x: -39, y: -52}
+        - {x: -31, y: -55}
+        - {x: 27, y: -55}
+        - {x: 45, y: -44}
+        - {x: 45, y: -1}
+        - {x: 37, y: 22}
+    - name: shaman_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 30}
+        - {x: -19, y: 30}
+        - {x: -26, y: 25}
+        - {x: -39, y: 7}
+        - {x: -39, y: -56}
+        - {x: 32, y: -56}
+        - {x: 45, y: -45}
+        - {x: 45, y: -22}
+        - {x: 34, y: 20}
+    - name: shaman_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -34}
+        - {x: 28, y: 23}
+        - {x: 13, y: 30}
+        - {x: -22, y: 30}
+        - {x: -39, y: 5}
+        - {x: -39, y: -34}
+        - {x: -30, y: -51}
+        - {x: -15, y: -56}
+        - {x: 9, y: -56}
+        - {x: 26, y: -48}
+        - {x: 24, y: -43}
+        - {x: 37, y: -44}
+        - {x: 44, y: -43}
+    - name: shaman_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -39, y: 18}
+        - {x: -39, y: -29}
+        - {x: -20, y: -55}
+        - {x: 41, y: -55}
+        - {x: 42, y: -54}
+        - {x: 42, y: 23}
+        - {x: 11, y: 32}
+    - name: shaman_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 37}
+        - {x: -38, y: 23}
+        - {x: -38, y: -45}
+        - {x: -35, y: -51}
+        - {x: 34, y: -51}
+        - {x: 36, y: -50}
+        - {x: 44, y: -20}
+        - {x: 44, y: 21}
+        - {x: 31, y: 37}
+    - name: shaman_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 44}
+        - {x: -13, y: 44}
+        - {x: -40, y: 6}
+        - {x: -40, y: -17}
+        - {x: -39, y: -18}
+        - {x: -27, y: -44}
+        - {x: 31, y: -44}
+        - {x: 57, y: 3}
+        - {x: 57, y: 8}
+        - {x: 51, y: 19}
+    - name: shaman_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 49}
+        - {x: -31, y: 36}
+        - {x: -43, y: 14}
+        - {x: -43, y: -6}
+        - {x: -29, y: -41}
+        - {x: 10, y: -41}
+        - {x: 60, y: -16}
+        - {x: 60, y: 10}
+        - {x: 27, y: 49}
+    - name: shaman_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 51}
+        - {x: -9, y: 51}
+        - {x: -43, y: 15}
+        - {x: -43, y: -8}
+        - {x: -18, y: -39}
+        - {x: 4, y: -39}
+        - {x: 60, y: -17}
+        - {x: 60, y: 7}
+    - name: shaman_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 52}
+        - {x: -43, y: 15}
+        - {x: -43, y: -7}
+        - {x: -24, y: -38}
+        - {x: 9, y: -38}
+        - {x: 60, y: -20}
+        - {x: 60, y: 15}
+        - {x: 45, y: 43}
+        - {x: 26, y: 52}
+    - name: shaman_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 35}
+        - {x: 19, y: 53}
+        - {x: -14, y: 53}
+        - {x: -39, y: 27}
+        - {x: -43, y: 15}
+        - {x: -43, y: -11}
+        - {x: -32, y: -37}
+        - {x: 17, y: -37}
+        - {x: 60, y: -16}
+        - {x: 60, y: 13}
+        - {x: 55, y: 12}
+        - {x: 44, y: 8}
+    - name: shaman_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1320
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 53}
+        - {x: -26, y: 53}
+        - {x: -42, y: 27}
+        - {x: -42, y: -13}
+        - {x: -25, y: -37}
+        - {x: 43, y: -37}
+        - {x: 60, y: -22}
+        - {x: 60, y: 41}
+        - {x: 31, y: 52}
+    - name: shaman_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 52}
+        - {x: -41, y: 28}
+        - {x: -41, y: -31}
+        - {x: -27, y: -40}
+        - {x: 29, y: -40}
+        - {x: 60, y: -2}
+        - {x: 60, y: 33}
+        - {x: 26, y: 52}
+    - name: shaman_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 14}
+        - {x: -39, y: -30}
+        - {x: -28, y: -44}
+        - {x: -24, y: -45}
+        - {x: 28, y: -45}
+        - {x: 59, y: -16}
+        - {x: 59, y: 12}
+        - {x: 41, y: 31}
+        - {x: 14, y: 48}
+        - {x: -31, y: 48}
+        - {x: -33, y: 42}
+    - name: shaman_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 45}
+        - {x: -36, y: 39}
+        - {x: -39, y: 10}
+        - {x: -39, y: -23}
+        - {x: -36, y: -25}
+        - {x: -29, y: -38}
+        - {x: -24, y: -42}
+        - {x: -20, y: -42}
+        - {x: -8, y: -50}
+        - {x: 30, y: -50}
+        - {x: 58, y: -10}
+        - {x: 58, y: 12}
+        - {x: 13, y: 45}
+    - name: shaman_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 41}
+        - {x: -39, y: 21}
+        - {x: -39, y: -33}
+        - {x: -29, y: -52}
+        - {x: 25, y: -52}
+        - {x: 55, y: -3}
+        - {x: 55, y: 28}
+        - {x: 13, y: 41}
+    - name: shaman_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -33}
+        - {x: 24, y: -47}
+        - {x: 26, y: -51}
+        - {x: 37, y: -49}
+        - {x: 44, y: 0}
+        - {x: 44, y: 9}
+        - {x: 4, y: 36}
+        - {x: -22, y: 36}
+        - {x: -40, y: 13}
+        - {x: -40, y: -39}
+        - {x: -24, y: -53}
+        - {x: 23, y: -53}
+        - {x: 24, y: -46}
+        - {x: 21, y: -34}
+        - {x: 19, y: -32}
+    - name: shaman_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 34}
+        - {x: -35, y: 9}
+        - {x: -40, y: -3}
+        - {x: -40, y: -50}
+        - {x: -34, y: -53}
+        - {x: 39, y: -53}
+        - {x: 39, y: 11}
+        - {x: 8, y: 34}
+    - name: shaman_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 33}
+        - {x: -39, y: 12}
+        - {x: -40, y: 1}
+        - {x: -40, y: -53}
+        - {x: 39, y: -53}
+        - {x: 39, y: 22}
+        - {x: 12, y: 33}
+    - name: shaman_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 32}
+        - {x: -14, y: 32}
+        - {x: -28, y: 27}
+        - {x: -34, y: 10}
+        - {x: -40, y: -11}
+        - {x: -40, y: -43}
+        - {x: -27, y: -53}
+        - {x: 40, y: -53}
+        - {x: 40, y: -1}
+        - {x: 39, y: 10}
+    - name: shaman_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 30}
+        - {x: -40, y: 20}
+        - {x: -40, y: -54}
+        - {x: 41, y: -54}
+        - {x: 41, y: 3}
+        - {x: 27, y: 30}
+    - name: shaman_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1200
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 29}
+        - {x: -33, y: 27}
+        - {x: -39, y: 6}
+        - {x: -39, y: -36}
+        - {x: -27, y: -56}
+        - {x: 42, y: -56}
+        - {x: 42, y: 29}
+    - name: shaman_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28}
+        - {x: -40, y: 11}
+        - {x: -40, y: -57}
+        - {x: 42, y: -57}
+        - {x: 42, y: 11}
+        - {x: 33, y: 28}
+    - name: shaman_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 27}
+        - {x: -31, y: 22}
+        - {x: -40, y: 6}
+        - {x: -40, y: -48}
+        - {x: -36, y: -57}
+        - {x: 17, y: -57}
+        - {x: 41, y: -50}
+        - {x: 41, y: 14}
+        - {x: 16, y: 27}
+    - name: shaman_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 28}
+        - {x: -39, y: 28}
+        - {x: -39, y: -57}
+        - {x: 40, y: -57}
+        - {x: 41, y: -56}
+        - {x: 41, y: 9}
+        - {x: 39, y: 18}
+    - name: shaman_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 28}
+        - {x: -39, y: -7}
+        - {x: -39, y: -44}
+        - {x: -35, y: -53}
+        - {x: -26, y: -56}
+        - {x: 24, y: -56}
+        - {x: 42, y: -49}
+        - {x: 42, y: 17}
+        - {x: 35, y: 28}
+    - name: shaman_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 29}
+        - {x: -38, y: 4}
+        - {x: -38, y: -39}
+        - {x: -32, y: -55}
+        - {x: 43, y: -55}
+        - {x: 43, y: 29}
+    - name: shaman_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 31}
+        - {x: -37, y: 9}
+        - {x: -37, y: -42}
+        - {x: -24, y: -54}
+        - {x: 34, y: -54}
+        - {x: 45, y: -50}
+        - {x: 45, y: 16}
+        - {x: 14, y: 31}
+    - name: shaman_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 32}
+        - {x: -25, y: 16}
+        - {x: -36, y: 1}
+        - {x: -36, y: -33}
+        - {x: -34, y: -39}
+        - {x: -24, y: -53}
+        - {x: 37, y: -53}
+        - {x: 44, y: -47}
+        - {x: 44, y: 12}
+        - {x: 22, y: 32}
+    - name: shaman_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 33}
+        - {x: -3, y: 33}
+        - {x: -12, y: 31}
+        - {x: -33, y: 1}
+        - {x: -36, y: -8}
+        - {x: -36, y: -28}
+        - {x: -29, y: -41}
+        - {x: -21, y: -52}
+        - {x: 45, y: -52}
+        - {x: 45, y: 9}
+        - {x: 41, y: 14}
+    - name: shaman_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 34}
+        - {x: -6, y: 34}
+        - {x: -26, y: 16}
+        - {x: -36, y: -12}
+        - {x: -36, y: -26}
+        - {x: -35, y: -41}
+        - {x: -12, y: -52}
+        - {x: 46, y: -52}
+        - {x: 46, y: 11}
+        - {x: 18, y: 32}
+    - name: shaman_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1080
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 35}
+        - {x: -10, y: 35}
+        - {x: -35, y: 6}
+        - {x: -35, y: -47}
+        - {x: -19, y: -52}
+        - {x: 38, y: -52}
+        - {x: 47, y: -43}
+        - {x: 47, y: 15}
+    - name: shaman_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 36}
+        - {x: -35, y: 12}
+        - {x: -35, y: -26}
+        - {x: -15, y: -52}
+        - {x: 23, y: -52}
+        - {x: 48, y: -44}
+        - {x: 48, y: 22}
+        - {x: 35, y: 36}
+    - name: shaman_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 36}
+        - {x: -5, y: 35}
+        - {x: -35, y: 0}
+        - {x: -35, y: -28}
+        - {x: -32, y: -36}
+        - {x: -13, y: -51}
+        - {x: 47, y: -51}
+        - {x: 49, y: -47}
+        - {x: 49, y: 30}
+        - {x: 27, y: 36}
+    - name: shaman_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -30}
+        - {x: 33, y: -43}
+        - {x: 43, y: -47}
+        - {x: 46, y: -43}
+        - {x: 50, y: -18}
+        - {x: 50, y: 11}
+        - {x: 31, y: 37}
+        - {x: -1, y: 37}
+        - {x: -24, y: 26}
+        - {x: -34, y: -3}
+        - {x: -34, y: -45}
+        - {x: -14, y: -51}
+        - {x: 26, y: -51}
+        - {x: 29, y: -39}
+        - {x: 26, y: -35}
+        - {x: 24, y: -32}
+    - name: shaman_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 37}
+        - {x: -5, y: 37}
+        - {x: -34, y: 5}
+        - {x: -34, y: -23}
+        - {x: -27, y: -35}
+        - {x: -14, y: -51}
+        - {x: 44, y: -51}
+        - {x: 47, y: -44}
+        - {x: 51, y: 3}
+        - {x: 27, y: 36}
+    - name: shaman_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 38}
+        - {x: -14, y: 38}
+        - {x: -33, y: -4}
+        - {x: -33, y: -24}
+        - {x: -25, y: -41}
+        - {x: -15, y: -51}
+        - {x: 45, y: -51}
+        - {x: 51, y: -43}
+        - {x: 51, y: 30}
+        - {x: 44, y: 37}
+    - name: shaman_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 38}
+        - {x: -9, y: 32}
+        - {x: -33, y: 3}
+        - {x: -33, y: -38}
+        - {x: -5, y: -51}
+        - {x: 46, y: -51}
+        - {x: 52, y: -33}
+        - {x: 52, y: 13}
+        - {x: 32, y: 38}
+    - name: shaman_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 38}
+        - {x: -33, y: 15}
+        - {x: -33, y: -35}
+        - {x: -26, y: -51}
+        - {x: 49, y: -51}
+        - {x: 53, y: -36}
+        - {x: 53, y: 38}
+    - name: shaman_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 31}
+        - {x: 24, y: 38}
+        - {x: -19, y: 38}
+        - {x: -33, y: 32}
+        - {x: -33, y: -51}
+        - {x: 34, y: -51}
+        - {x: 46, y: -46}
+        - {x: 54, y: -15}
+        - {x: 54, y: 7}
+    - name: shaman_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 38}
+        - {x: -33, y: 11}
+        - {x: -33, y: -35}
+        - {x: -24, y: -51}
+        - {x: 55, y: -51}
+        - {x: 55, y: 14}
+        - {x: 37, y: 38}
+    - name: shaman_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 960
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 37}
+        - {x: -33, y: 34}
+        - {x: -33, y: -51}
+        - {x: 49, y: -51}
+        - {x: 56, y: -38}
+        - {x: 56, y: -4}
+        - {x: 34, y: 37}
+    - name: shaman_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -3}
+        - {x: -32, y: -35}
+        - {x: -21, y: -51}
+        - {x: 37, y: -51}
+        - {x: 56, y: -36}
+        - {x: 56, y: 3}
+        - {x: 43, y: 28}
+        - {x: 24, y: 37}
+        - {x: -7, y: 37}
+        - {x: -20, y: 21}
+    - name: shaman_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 36}
+        - {x: -4, y: 36}
+        - {x: -7, y: 33}
+        - {x: -32, y: -2}
+        - {x: -32, y: -51}
+        - {x: 55, y: -51}
+        - {x: 55, y: -1}
+        - {x: 43, y: 28}
+    - name: shaman_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 36}
+        - {x: -32, y: 5}
+        - {x: -32, y: -47}
+        - {x: -26, y: -51}
+        - {x: 48, y: -51}
+        - {x: 54, y: -44}
+        - {x: 54, y: -3}
+        - {x: 33, y: 36}
+    - name: shaman_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 36}
+        - {x: -32, y: 5}
+        - {x: -32, y: -51}
+        - {x: 42, y: -51}
+        - {x: 55, y: -40}
+        - {x: 55, y: 4}
+        - {x: 32, y: 36}
+    - name: shaman_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: -22}
+        - {x: 55, y: -2}
+        - {x: 31, y: 37}
+        - {x: 2, y: 37}
+        - {x: -14, y: 22}
+        - {x: -15, y: 16}
+        - {x: -33, y: -4}
+        - {x: -33, y: -30}
+        - {x: -16, y: -51}
+        - {x: 21, y: -51}
+        - {x: 27, y: -41}
+        - {x: 31, y: -44}
+        - {x: 40, y: -49}
+    - name: shaman_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 38}
+        - {x: -33, y: -2}
+        - {x: -33, y: -39}
+        - {x: -32, y: -45}
+        - {x: -16, y: -51}
+        - {x: 44, y: -51}
+        - {x: 54, y: -30}
+        - {x: 54, y: 8}
+        - {x: 32, y: 38}
+    - name: shaman_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 38}
+        - {x: -33, y: 15}
+        - {x: -33, y: -35}
+        - {x: -26, y: -51}
+        - {x: 49, y: -51}
+        - {x: 53, y: -36}
+        - {x: 53, y: 38}
+    - name: shaman_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 38}
+        - {x: -13, y: 38}
+        - {x: -33, y: 3}
+        - {x: -33, y: -32}
+        - {x: -27, y: -42}
+        - {x: -6, y: -51}
+        - {x: 40, y: -51}
+        - {x: 49, y: -45}
+        - {x: 53, y: -27}
+        - {x: 53, y: 9}
+    - name: shaman_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 37}
+        - {x: -33, y: 4}
+        - {x: -33, y: -41}
+        - {x: -5, y: -51}
+        - {x: 55, y: -51}
+        - {x: 55, y: 11}
+        - {x: 49, y: 37}
+    - name: shaman_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 840
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 37}
+        - {x: -33, y: -1}
+        - {x: -33, y: -51}
+        - {x: 50, y: -51}
+        - {x: 55, y: -44}
+        - {x: 55, y: -11}
+        - {x: 34, y: 37}
+    - name: shaman_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 36}
+        - {x: -32, y: 6}
+        - {x: -32, y: -51}
+        - {x: 55, y: -51}
+        - {x: 55, y: 31}
+        - {x: 38, y: 36}
+    - name: shaman_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 36}
+        - {x: -4, y: 36}
+        - {x: -32, y: -5}
+        - {x: -32, y: -35}
+        - {x: -31, y: -44}
+        - {x: -11, y: -51}
+        - {x: 32, y: -51}
+        - {x: 54, y: -42}
+        - {x: 54, y: -15}
+        - {x: 41, y: 29}
+    - name: shaman_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 36}
+        - {x: -32, y: 6}
+        - {x: -32, y: -51}
+        - {x: 55, y: -51}
+        - {x: 55, y: 31}
+        - {x: 38, y: 36}
+    - name: shaman_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 37}
+        - {x: -33, y: -1}
+        - {x: -33, y: -51}
+        - {x: 50, y: -51}
+        - {x: 55, y: -44}
+        - {x: 55, y: -11}
+        - {x: 34, y: 37}
+    - name: shaman_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 37}
+        - {x: -33, y: 4}
+        - {x: -33, y: -41}
+        - {x: -5, y: -51}
+        - {x: 55, y: -51}
+        - {x: 55, y: 11}
+        - {x: 49, y: 37}
+    - name: shaman_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 38}
+        - {x: -13, y: 38}
+        - {x: -33, y: 3}
+        - {x: -33, y: -32}
+        - {x: -27, y: -42}
+        - {x: -6, y: -51}
+        - {x: 40, y: -51}
+        - {x: 49, y: -45}
+        - {x: 53, y: -27}
+        - {x: 53, y: 9}
+    - name: shaman_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 38}
+        - {x: -33, y: 15}
+        - {x: -33, y: -35}
+        - {x: -26, y: -51}
+        - {x: 49, y: -51}
+        - {x: 53, y: -36}
+        - {x: 53, y: 38}
+    - name: shaman_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 16}
+        - {x: 36, y: 38}
+        - {x: 1, y: 38}
+        - {x: -20, y: 18}
+        - {x: -33, y: 4}
+        - {x: -33, y: -35}
+        - {x: -30, y: -46}
+        - {x: -8, y: -51}
+        - {x: 35, y: -51}
+        - {x: 44, y: -44}
+        - {x: 53, y: -31}
+    - name: shaman_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 38}
+        - {x: -33, y: 8}
+        - {x: -33, y: -29}
+        - {x: -24, y: -45}
+        - {x: -19, y: -51}
+        - {x: 43, y: -51}
+        - {x: 54, y: -28}
+        - {x: 54, y: 14}
+        - {x: 35, y: 38}
+    - name: shaman_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 720
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 37}
+        - {x: 0, y: 37}
+        - {x: -33, y: 5}
+        - {x: -33, y: -47}
+        - {x: -15, y: -51}
+        - {x: 44, y: -51}
+        - {x: 55, y: -18}
+        - {x: 55, y: -8}
+    - name: shaman_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 37}
+        - {x: -29, y: 24}
+        - {x: -32, y: 10}
+        - {x: -32, y: -45}
+        - {x: -17, y: -51}
+        - {x: -1, y: -51}
+        - {x: 3, y: -49}
+        - {x: 10, y: -40}
+        - {x: 10, y: -51}
+        - {x: 38, y: -51}
+        - {x: 48, y: -49}
+        - {x: 55, y: -44}
+        - {x: 55, y: 2}
+        - {x: 40, y: 37}
+    - name: shaman_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 36}
+        - {x: -32, y: 16}
+        - {x: -32, y: -51}
+        - {x: 43, y: -51}
+        - {x: 55, y: -43}
+        - {x: 55, y: 0}
+        - {x: 30, y: 36}
+    - name: shaman_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -33}
+        - {x: -30, y: -43}
+        - {x: -24, y: -43}
+        - {x: -21, y: -52}
+        - {x: 54, y: -52}
+        - {x: 54, y: -12}
+        - {x: 43, y: 27}
+        - {x: 27, y: 36}
+        - {x: -4, y: 36}
+        - {x: -32, y: -1}
+    - name: shaman_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 36}
+        - {x: -2, y: 36}
+        - {x: -32, y: 2}
+        - {x: -32, y: -51}
+        - {x: 42, y: -51}
+        - {x: 55, y: -40}
+        - {x: 55, y: -5}
+        - {x: 45, y: 30}
+    - name: shaman_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 37}
+        - {x: -9, y: 37}
+        - {x: -33, y: 14}
+        - {x: -33, y: -51}
+        - {x: 52, y: -51}
+        - {x: 56, y: -35}
+        - {x: 56, y: -1}
+        - {x: 46, y: 27}
+    - name: shaman_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -48}
+        - {x: 44, y: -44}
+        - {x: 55, y: -26}
+        - {x: 55, y: 7}
+        - {x: 43, y: 32}
+        - {x: 29, y: 38}
+        - {x: 3, y: 38}
+        - {x: -5, y: 33}
+        - {x: -33, y: 3}
+        - {x: -33, y: -38}
+        - {x: -7, y: -50}
+        - {x: 3, y: -47}
+        - {x: 7, y: -42}
+        - {x: 13, y: -51}
+        - {x: 19, y: -51}
+        - {x: 22, y: -50}
+        - {x: 28, y: -39}
+        - {x: 30, y: -43}
+    - name: shaman_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 25}
+        - {x: 25, y: 38}
+        - {x: 5, y: 38}
+        - {x: -9, y: 32}
+        - {x: -33, y: -6}
+        - {x: -33, y: -31}
+        - {x: -28, y: -44}
+        - {x: -2, y: -51}
+        - {x: 45, y: -51}
+        - {x: 53, y: -27}
+        - {x: 53, y: 2}
+        - {x: 51, y: 4}
+    - name: shaman_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 38}
+        - {x: -33, y: 15}
+        - {x: -33, y: -35}
+        - {x: -26, y: -51}
+        - {x: 49, y: -51}
+        - {x: 53, y: -36}
+        - {x: 53, y: 38}
+    - name: shaman_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 37}
+        - {x: -3, y: 37}
+        - {x: -33, y: 5}
+        - {x: -33, y: -24}
+        - {x: -26, y: -37}
+        - {x: -2, y: -51}
+        - {x: 47, y: -51}
+        - {x: 53, y: -30}
+        - {x: 53, y: 9}
+    - name: shaman_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 600
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -26}
+        - {x: -17, y: -51}
+        - {x: 51, y: -51}
+        - {x: 51, y: 17}
+        - {x: 50, y: 26}
+        - {x: 44, y: 35}
+        - {x: -15, y: 35}
+        - {x: -33, y: 28}
+    - name: shaman_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 33}
+        - {x: -33, y: -2}
+        - {x: -33, y: -27}
+        - {x: -25, y: -45}
+        - {x: -22, y: -53}
+        - {x: 47, y: -53}
+        - {x: 47, y: -2}
+        - {x: 33, y: 33}
+    - name: shaman_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 31}
+        - {x: -14, y: 22}
+        - {x: -33, y: -10}
+        - {x: -33, y: -41}
+        - {x: -27, y: -55}
+        - {x: 45, y: -55}
+        - {x: 45, y: 2}
+        - {x: 30, y: 31}
+    - name: shaman_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 30}
+        - {x: -33, y: -14}
+        - {x: -33, y: -34}
+        - {x: -28, y: -56}
+        - {x: 45, y: -56}
+        - {x: 45, y: 2}
+        - {x: 34, y: 30}
+    - name: shaman_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -51}
+        - {x: -19, y: -55}
+        - {x: 23, y: -55}
+        - {x: 45, y: -51}
+        - {x: 45, y: 6}
+        - {x: 43, y: 22}
+        - {x: 28, y: 29}
+        - {x: -2, y: 29}
+        - {x: -27, y: -3}
+    - name: shaman_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 28}
+        - {x: -26, y: 1}
+        - {x: -26, y: -50}
+        - {x: -23, y: -54}
+        - {x: 45, y: -54}
+        - {x: 45, y: 16}
+        - {x: 28, y: 28}
+    - name: shaman_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 27}
+        - {x: -9, y: 26}
+        - {x: -26, y: 4}
+        - {x: -26, y: -51}
+        - {x: -24, y: -53}
+        - {x: 45, y: -53}
+        - {x: 45, y: 1}
+        - {x: 36, y: 27}
+    - name: shaman_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -46}
+        - {x: 41, y: -52}
+        - {x: 44, y: -52}
+        - {x: 46, y: -45}
+        - {x: 46, y: 14}
+        - {x: 40, y: 31}
+        - {x: -10, y: 31}
+        - {x: -26, y: 10}
+        - {x: -26, y: -50}
+        - {x: -16, y: -52}
+        - {x: -5, y: -52}
+        - {x: -1, y: -51}
+        - {x: 8, y: -52}
+        - {x: 21, y: -52}
+        - {x: 24, y: -49}
+        - {x: 28, y: -38}
+    - name: shaman_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 38}
+        - {x: -4, y: 38}
+        - {x: -12, y: 33}
+        - {x: -29, y: 9}
+        - {x: -29, y: -38}
+        - {x: -24, y: -49}
+        - {x: 39, y: -49}
+        - {x: 44, y: -44}
+        - {x: 49, y: -29}
+        - {x: 49, y: 2}
+    - name: shaman_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 44}
+        - {x: -33, y: -3}
+        - {x: -33, y: -29}
+        - {x: -15, y: -46}
+        - {x: 34, y: -46}
+        - {x: 47, y: -23}
+        - {x: 47, y: 5}
+        - {x: 25, y: 44}
+    - name: shaman_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 5}
+        - {x: 18, y: 45}
+        - {x: 14, y: 46}
+        - {x: -20, y: 46}
+        - {x: -37, y: 10}
+        - {x: -37, y: -27}
+        - {x: -22, y: -45}
+        - {x: 31, y: -45}
+        - {x: 33, y: -37}
+        - {x: 38, y: -14}
+        - {x: 39, y: -9}
+    - name: shaman_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 45}
+        - {x: -27, y: 38}
+        - {x: -41, y: -4}
+        - {x: -41, y: -27}
+        - {x: -13, y: -46}
+        - {x: 31, y: -46}
+        - {x: 34, y: -43}
+        - {x: 34, y: 23}
+        - {x: 11, y: 45}
+    - name: shaman_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 43}
+        - {x: -44, y: 13}
+        - {x: -44, y: -26}
+        - {x: -18, y: -48}
+        - {x: 32, y: -48}
+        - {x: 32, y: 32}
+        - {x: 11, y: 43}
+    - name: shaman_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 39}
+        - {x: -6, y: 39}
+        - {x: -15, y: 35}
+        - {x: -47, y: 5}
+        - {x: -47, y: -28}
+        - {x: -31, y: -49}
+        - {x: 31, y: -49}
+        - {x: 33, y: -47}
+        - {x: 33, y: -15}
+        - {x: 32, y: 16}
+    - name: shaman_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 35}
+        - {x: -48, y: 1}
+        - {x: -48, y: -23}
+        - {x: -32, y: -52}
+        - {x: 33, y: -52}
+        - {x: 33, y: 11}
+        - {x: 8, y: 35}
+    - name: shaman_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 32}
+        - {x: -46, y: 18}
+        - {x: -49, y: 14}
+        - {x: -49, y: -42}
+        - {x: -31, y: -55}
+        - {x: 31, y: -55}
+        - {x: 31, y: 13}
+        - {x: 18, y: 32}
+    - name: shaman_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 31}
+        - {x: -3, y: 31}
+        - {x: -11, y: 22}
+        - {x: -49, y: 4}
+        - {x: -49, y: -23}
+        - {x: -26, y: -53}
+        - {x: -12, y: -57}
+        - {x: 30, y: -57}
+        - {x: 30, y: 11}
+        - {x: 13, y: 28}
+    - name: shaman_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -28}
+        - {x: -27, y: -54}
+        - {x: -20, y: -58}
+        - {x: 19, y: -58}
+        - {x: 29, y: -39}
+        - {x: 29, y: 13}
+        - {x: 9, y: 32}
+        - {x: -14, y: 32}
+        - {x: -22, y: 29}
+        - {x: -49, y: -1}
+    - name: shaman_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 36}
+        - {x: -51, y: 35}
+        - {x: -51, y: -8}
+        - {x: -46, y: -27}
+        - {x: -19, y: -53}
+        - {x: 8, y: -53}
+        - {x: 25, y: -33}
+        - {x: 25, y: 22}
+        - {x: 14, y: 36}
+    - name: shaman_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 38}
+        - {x: -60, y: 31}
+        - {x: -60, y: 2}
+        - {x: -24, y: -45}
+        - {x: -6, y: -45}
+        - {x: 20, y: -20}
+        - {x: 20, y: 33}
+        - {x: 14, y: 38}
+    - name: shaman_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 37}
+        - {x: -60, y: 30}
+        - {x: -60, y: -11}
+        - {x: -40, y: -38}
+        - {x: 5, y: -38}
+        - {x: 21, y: -3}
+        - {x: 21, y: 18}
+        - {x: 11, y: 37}
+    - name: shaman_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 38}
+        - {x: -27, y: 37}
+        - {x: -60, y: 19}
+        - {x: -60, y: -4}
+        - {x: -37, y: -35}
+        - {x: 17, y: -35}
+        - {x: 23, y: -19}
+        - {x: 23, y: 31}
+        - {x: 8, y: 38}
+    - name: shaman_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 37}
+        - {x: -60, y: 28}
+        - {x: -60, y: -8}
+        - {x: -38, y: -35}
+        - {x: 4, y: -35}
+        - {x: 24, y: -25}
+        - {x: 24, y: 18}
+        - {x: 19, y: 37}
+    - name: shaman_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 34}
+        - {x: -59, y: 11}
+        - {x: -59, y: -11}
+        - {x: -37, y: -37}
+        - {x: 24, y: -37}
+        - {x: 24, y: 34}
+    - name: shaman_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 32}
+        - {x: -36, y: 29}
+        - {x: -57, y: -4}
+        - {x: -57, y: -27}
+        - {x: -28, y: -41}
+        - {x: 25, y: -41}
+        - {x: 25, y: 27}
+        - {x: 16, y: 32}
+    - name: shaman_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -28}
+        - {x: 27, y: 18}
+        - {x: 18, y: 30}
+        - {x: -29, y: 30}
+        - {x: -39, y: 27}
+        - {x: -54, y: -13}
+        - {x: -54, y: -30}
+        - {x: -24, y: -45}
+        - {x: 4, y: -45}
+        - {x: 25, y: -37}
+        - {x: 21, y: -31}
+        - {x: 19, y: -29}
+    - name: shaman_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 28}
+        - {x: -50, y: -5}
+        - {x: -50, y: -37}
+        - {x: -30, y: -48}
+        - {x: 15, y: -48}
+        - {x: 18, y: -47}
+        - {x: 28, y: -37}
+        - {x: 28, y: 5}
+        - {x: 13, y: 28}
+    - name: shaman_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 27}
+        - {x: -45, y: -14}
+        - {x: -45, y: -43}
+        - {x: -28, y: -48}
+        - {x: 11, y: -48}
+        - {x: 26, y: -45}
+        - {x: 30, y: -35}
+        - {x: 30, y: 4}
+        - {x: 11, y: 27}
+    - name: shaman_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 28}
+        - {x: -34, y: 16}
+        - {x: -40, y: -6}
+        - {x: -40, y: -36}
+        - {x: -20, y: -47}
+        - {x: 27, y: -47}
+        - {x: 31, y: -46}
+        - {x: 31, y: 3}
+        - {x: 15, y: 28}
+    - name: shaman_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -28}
+        - {x: -23, y: -45}
+        - {x: 33, y: -45}
+        - {x: 33, y: 16}
+        - {x: 15, y: 30}
+        - {x: -20, y: 30}
+        - {x: -34, y: -8}
+    - name: shaman_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 32}
+        - {x: -26, y: 27}
+        - {x: -26, y: -37}
+        - {x: -25, y: -41}
+        - {x: -10, y: -41}
+        - {x: -7, y: -40}
+        - {x: -1, y: -32}
+        - {x: 21, y: -41}
+        - {x: 35, y: -41}
+        - {x: 35, y: 30}
+        - {x: 32, y: 32}
+    - name: shaman_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 34}
+        - {x: -14, y: 32}
+        - {x: -19, y: 22}
+        - {x: -19, y: -10}
+        - {x: -9, y: -38}
+        - {x: 36, y: -38}
+        - {x: 37, y: -35}
+        - {x: 37, y: 15}
+        - {x: 20, y: 34}
+    - name: shaman_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 7}
+        - {x: 26, y: 36}
+        - {x: 1, y: 36}
+        - {x: -14, y: 32}
+        - {x: -16, y: 27}
+        - {x: -16, y: 7}
+        - {x: -9, y: -34}
+        - {x: 8, y: -38}
+        - {x: 35, y: -38}
+        - {x: 40, y: -37}
+        - {x: 39, y: -31}
+        - {x: 41, y: -22}
+        - {x: 41, y: -3}
+    - name: shaman_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -39}
+        - {x: 42, y: -39}
+        - {x: 46, y: -30}
+        - {x: 46, y: 19}
+        - {x: 31, y: 37}
+        - {x: 4, y: 37}
+        - {x: -15, y: 31}
+        - {x: -15, y: 5}
+    - name: shaman_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51, y: 3}
+        - {x: 26, y: 37}
+        - {x: 5, y: 37}
+        - {x: -15, y: 30}
+        - {x: -15, y: -15}
+        - {x: -9, y: -39}
+        - {x: 4, y: -39}
+        - {x: 12, y: -34}
+        - {x: 21, y: -40}
+        - {x: 28, y: -41}
+        - {x: 35, y: -41}
+        - {x: 37, y: -38}
+        - {x: 42, y: -31}
+        - {x: 51, y: -17}
+    - name: shaman_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -45}
+        - {x: 33, y: -45}
+        - {x: 55, y: -22}
+        - {x: 55, y: 4}
+        - {x: 54, y: 8}
+        - {x: 22, y: 36}
+        - {x: -6, y: 36}
+        - {x: -16, y: 34}
+    - name: shaman_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 33}
+        - {x: -17, y: 23}
+        - {x: -17, y: -31}
+        - {x: 7, y: -49}
+        - {x: 44, y: -49}
+        - {x: 59, y: -35}
+        - {x: 59, y: 4}
+        - {x: 27, y: 33}
+    - name: shaman_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 31}
+        - {x: -7, y: 31}
+        - {x: -17, y: 13}
+        - {x: -17, y: -53}
+        - {x: 52, y: -53}
+        - {x: 60, y: -48}
+        - {x: 60, y: -1}
+        - {x: 19, y: 28}
+    - name: shaman_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 28}
+        - {x: -9, y: 27}
+        - {x: -17, y: 6}
+        - {x: -17, y: -21}
+        - {x: 3, y: -55}
+        - {x: 31, y: -55}
+        - {x: 43, y: -50}
+        - {x: 60, y: -33}
+        - {x: 60, y: 4}
+        - {x: 36, y: 28}
+    - name: shaman_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 28}
+        - {x: -12, y: 28}
+        - {x: -17, y: 14}
+        - {x: -17, y: -34}
+        - {x: -5, y: -54}
+        - {x: 47, y: -54}
+        - {x: 59, y: -41}
+        - {x: 59, y: -1}
+        - {x: 48, y: 16}
+    - name: shaman_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -53}
+        - {x: 50, y: -53}
+        - {x: 60, y: -39}
+        - {x: 60, y: 11}
+        - {x: 33, y: 30}
+        - {x: -11, y: 30}
+        - {x: -14, y: 25}
+        - {x: -14, y: -33}
+    - name: shaman_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 35}
+        - {x: -13, y: -44}
+        - {x: -9, y: -49}
+        - {x: -3, y: -50}
+        - {x: 36, y: -50}
+        - {x: 58, y: -17}
+        - {x: 58, y: 23}
+        - {x: 38, y: 35}
+    - name: shaman_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 42}
+        - {x: -15, y: 20}
+        - {x: -15, y: -40}
+        - {x: 6, y: -45}
+        - {x: 25, y: -45}
+        - {x: 41, y: -40}
+        - {x: 56, y: -12}
+        - {x: 56, y: 16}
+        - {x: 37, y: 42}
+    - name: shaman_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 48}
+        - {x: -16, y: -41}
+        - {x: 24, y: -41}
+        - {x: 47, y: -36}
+        - {x: 57, y: -14}
+        - {x: 57, y: 28}
+        - {x: 36, y: 48}
+    - name: shaman_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 50}
+        - {x: -18, y: 29}
+        - {x: -18, y: -36}
+        - {x: -12, y: -39}
+        - {x: 27, y: -39}
+        - {x: 46, y: -30}
+        - {x: 60, y: -3}
+        - {x: 60, y: 30}
+        - {x: 40, y: 50}
+    - name: shaman_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 25}
+        - {x: 46, y: 18}
+        - {x: 47, y: 34}
+        - {x: 35, y: 50}
+        - {x: 3, y: 50}
+        - {x: -20, y: 24}
+        - {x: -20, y: -36}
+        - {x: -13, y: -40}
+        - {x: 26, y: -40}
+        - {x: 43, y: -31}
+        - {x: 60, y: 4}
+        - {x: 60, y: 24}
+        - {x: 57, y: 26}
+    - name: shaman_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 49}
+        - {x: -23, y: 34}
+        - {x: -24, y: 9}
+        - {x: -24, y: -25}
+        - {x: -23, y: -41}
+        - {x: 45, y: -41}
+        - {x: 60, y: -15}
+        - {x: 60, y: 26}
+        - {x: 41, y: 49}
+    - name: shaman_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 45}
+        - {x: 29, y: 46}
+        - {x: -25, y: 46}
+        - {x: -30, y: 26}
+        - {x: -30, y: -8}
+        - {x: -23, y: -38}
+        - {x: -11, y: -43}
+        - {x: 20, y: -43}
+        - {x: 34, y: -35}
+        - {x: 58, y: 10}
+        - {x: 58, y: 22}
+    - name: shaman_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 43}
+        - {x: -15, y: 43}
+        - {x: -34, y: 30}
+        - {x: -34, y: -16}
+        - {x: -27, y: -45}
+        - {x: 27, y: -45}
+        - {x: 53, y: -8}
+        - {x: 53, y: 37}
+    - name: shaman_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 40}
+        - {x: -20, y: 37}
+        - {x: -38, y: 13}
+        - {x: -38, y: -23}
+        - {x: -24, y: -49}
+        - {x: 26, y: -49}
+        - {x: 50, y: -8}
+        - {x: 50, y: 23}
+        - {x: 21, y: 40}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

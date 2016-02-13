@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 828869da390d12e4aa4a5c7f74a2027f
+timeCreated: 1454212376
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - powerUp: {fileID: 8300000, guid: d00e8f88dcf7da043b01daaa28d96596, type: 3}
+  - hitPlayer: {fileID: 8300000, guid: 0804d4a9989cc9843bd0a8a463c8582a, type: 3}
+  - enemySmash: {fileID: 8300000, guid: 50258df735fc9fc4d8de0dfef48db9f3, type: 3}
+  - attackPlayer: {fileID: 8300000, guid: 7ad0cbbd08e1c784e890cfebdca1faca, type: 3}
+  - clickMenu: {instanceID: 0}
+  - shotCob: {instanceID: 0}
+  - musicGame: {fileID: 8300000, guid: 00abc51dc23c15048b01641710f0a351, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

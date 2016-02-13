@@ -3,75 +3,97 @@ using System.Collections;
 
 public class SoundSingleton : MonoBehaviour {
 
-	private static SoundSingleton   Instance;
+    private static SoundSingleton Instance;
 
-	private AudioSource AudioManager;
+    private AudioSource AudioManager;
 
-	public AudioClip powerUp;
-	public AudioClip hitPlayer;
-	public AudioClip enemySmash;
-	public AudioClip attackPlayer;
-	public AudioClip clickMenu;
-	public AudioClip shotCob;
+    public AudioClip powerUp;
+    public AudioClip hitPlayer;
+    public AudioClip enemySmash;
+    public AudioClip attackPlayer;
+    public AudioClip key;
+    public AudioClip button;
 
-	public bool muteMusic;
+    public AudioClip musicGame;
+    public AudioClip musicIntro;
 
-	public static SoundSingleton Singleton
-	{
-		get
-		{
-			if(Instance == null)
-			{
-				Instance = GameObject.FindObjectOfType<SoundSingleton>();
-				DontDestroyOnLoad(Instance.gameObject);
-			}
+    public bool muteMusic;
 
-			return Instance;
-		}
-	}
+    public static SoundSingleton Singleton {
+        get {
+            if (Instance == null) {
+                Instance = GameObject.FindObjectOfType<SoundSingleton>();
+                DontDestroyOnLoad(Instance.gameObject);
+            }
 
-	void Awake(){
-		if (Instance == null) {
-			DontDestroyOnLoad (gameObject);
-			Instance = this;
-		} else if (Instance != this) {
-			Destroy (gameObject);
-		}
-	}
+            return Instance;
+        }
+    }
 
-	// Use this for initialization
-	void Start () {
-		AudioManager = GetComponent<AudioSource> ();
-	}
+    void Awake() {
+        if (Instance == null) {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }
+        else if (Instance != this) {
+            Destroy(gameObject);
+        }
+    }
 
-	public void PlayPowerUp(){
-		if(PlayerPrefs.GetInt("Effects") == 1)
-			AudioManager.PlayOneShot (powerUp);
-	}
+    // Use this for initialization
+    void Start() {
+        AudioManager = GetComponent<AudioSource>();
+    }
 
-	public void PlayHitPlayer(){
-		if(PlayerPrefs.GetInt("Effects") == 1)
-		AudioManager.PlayOneShot (hitPlayer);
-	}
+    public void PlayPowerUp() {
+        if (PlayerPrefs.GetInt("Effects") == 2)
+            AudioManager.PlayOneShot(powerUp);
+    }
 
-	public void PlaySmashEnemy(){
-		if(PlayerPrefs.GetInt("Effects") == 1)
-		AudioManager.PlayOneShot (enemySmash);
-	}
+    public void PlayHitPlayer() {
+        if (PlayerPrefs.GetInt("Effects") == 2)
+            AudioManager.PlayOneShot(hitPlayer);
+    }
 
-	public void PlayAttackPlayer(){
-		if(PlayerPrefs.GetInt("Effects") == 1)
-		AudioManager.PlayOneShot (attackPlayer);
-	}
-		
-	public void PlayClickMenu(){
-		if(PlayerPrefs.GetInt("Effects") == 1)
-		AudioManager.PlayOneShot (clickMenu);
-	}
+    public void PlaySmashEnemy() {
+        if (PlayerPrefs.GetInt("Effects") == 2)
+            AudioManager.PlayOneShot(enemySmash);
+    }
 
-	public void PlayShotCob(){
-		if(PlayerPrefs.GetInt("Effects") == 1)
-		AudioManager.PlayOneShot (shotCob);
-	}
+    public void PlayAttackPlayer() {
+        if (PlayerPrefs.GetInt("Effects") == 2)
+            AudioManager.PlayOneShot(attackPlayer);
+    }
 
+    public void PlayKey() {
+        if (PlayerPrefs.GetInt("Effects") == 2)
+            AudioManager.PlayOneShot(key);
+    }
+
+    public void PlayButton() {
+        if (PlayerPrefs.GetInt("Effects") == 2)
+            AudioManager.PlayOneShot(button);
+    }
+
+    public void PlayMusicGame() {
+        if (PlayerPrefs.GetInt("Music") == 2) {
+            AudioManager.clip = musicGame;
+            AudioManager.Play();
+            AudioManager.loop = true;
+        }
+    }
+
+    public void PlayMusicIntro() {
+        if (PlayerPrefs.GetInt("Music") == 2) {
+            if(AudioManager.clip != musicIntro) {
+                AudioManager.clip = musicIntro;
+                AudioManager.Play();
+                AudioManager.loop = true;
+            }
+        }
+    }
+
+    public void StopMusicGame() {
+        AudioManager.Stop();
+    }
 }

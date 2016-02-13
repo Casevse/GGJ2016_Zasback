@@ -7,7 +7,8 @@ public class Bullet : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		damage = 10;
+        int randDmg = Random.Range(1, 11);
+		damage = randDmg + (1 * GameManager.round);
 	}
 	
 	// Update is called once per frame
@@ -17,7 +18,12 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
-		if (col.gameObject.tag == "Floor" || col.gameObject.tag == "Wall") {
+        if (GameManager.endGame) {
+            Destroy(gameObject);
+            return;
+        }
+
+        if (col.gameObject.tag == "Floor" || col.gameObject.tag == "Wall") {
 			Destroy(gameObject);
 		} 
 		else if(col.gameObject.tag == "Player") {
@@ -26,8 +32,9 @@ public class Bullet : MonoBehaviour {
 				stats.RemoveFat(damage);
 			}
 			Destroy (gameObject);
-		} else {
-            Destroy(gameObject);
+		}
+        else {
+            Destroy(this.gameObject);
         }
 	}
 }

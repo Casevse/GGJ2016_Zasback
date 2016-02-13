@@ -3,8 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class PowerUp : MonoBehaviour {
-
-
 	public int fatMin, fatMax;
 	public Sprite[] sprites;
 	public Texture2D tex;
@@ -29,8 +27,6 @@ public class PowerUp : MonoBehaviour {
 			if (fatMax == 0)
 				fatMax = 20;
 			valueFat = Random.Range (fatMin,fatMax);
-
-
 		}
 	}
 	

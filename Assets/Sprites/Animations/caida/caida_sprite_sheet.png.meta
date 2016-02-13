@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 9bea952dce93ef04b8b58a2b2bb3d193
+timeCreated: 1454179856
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: caida_sprite_sheet_0
+    21300002: caida_sprite_sheet_1
+    21300004: caida_sprite_sheet_2
+    21300006: caida_sprite_sheet_3
+    21300008: caida_sprite_sheet_4
+    21300010: caida_sprite_sheet_5
+    21300012: caida_sprite_sheet_6
+    21300014: caida_sprite_sheet_7
+    21300016: caida_sprite_sheet_8
+    21300018: caida_sprite_sheet_9
+    21300020: caida_sprite_sheet_10
+    21300022: caida_sprite_sheet_11
+    21300024: caida_sprite_sheet_12
+    21300026: caida_sprite_sheet_13
+    21300028: caida_sprite_sheet_14
+    21300030: caida_sprite_sheet_15
+    21300032: caida_sprite_sheet_16
+    21300034: caida_sprite_sheet_17
+    21300036: caida_sprite_sheet_18
+    21300038: caida_sprite_sheet_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: caida_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 35}
+        - {x: -32, y: 35}
+        - {x: -57, y: 27}
+        - {x: -57, y: -47}
+        - {x: -54, y: -59}
+        - {x: 7, y: -59}
+        - {x: 57, y: -40}
+        - {x: 57, y: -20}
+        - {x: 46, y: -1}
+    - name: caida_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 33}
+        - {x: -57, y: 15}
+        - {x: -57, y: -56}
+        - {x: -55, y: -59}
+        - {x: 28, y: -59}
+        - {x: 57, y: -55}
+        - {x: 57, y: -25}
+        - {x: 8, y: 33}
+    - name: caida_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 28}
+        - {x: -37, y: 28}
+        - {x: -55, y: 13}
+        - {x: -55, y: -50}
+        - {x: -35, y: -58}
+        - {x: 27, y: -58}
+        - {x: 57, y: -39}
+        - {x: 57, y: -14}
+        - {x: 19, y: 25}
+    - name: caida_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 480
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 22}
+        - {x: -52, y: 18}
+        - {x: -52, y: -58}
+        - {x: 25, y: -58}
+        - {x: 56, y: -52}
+        - {x: 57, y: -35}
+        - {x: 55, y: -30}
+        - {x: 11, y: 22}
+    - name: caida_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 17}
+        - {x: -26, y: 17}
+        - {x: -51, y: -4}
+        - {x: -51, y: -49}
+        - {x: -46, y: -58}
+        - {x: 29, y: -58}
+        - {x: 56, y: -39}
+        - {x: 56, y: -20}
+        - {x: 8, y: 16}
+    - name: caida_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 15}
+        - {x: -50, y: 5}
+        - {x: -50, y: -58}
+        - {x: 37, y: -58}
+        - {x: 56, y: -47}
+        - {x: 56, y: -30}
+        - {x: 14, y: 15}
+    - name: caida_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 36}
+        - {x: -54, y: 9}
+        - {x: -54, y: -46}
+        - {x: 55, y: -46}
+        - {x: 55, y: -19}
+        - {x: 12, y: 36}
+    - name: caida_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 59}
+        - {x: -57, y: 28}
+        - {x: -57, y: -24}
+        - {x: -14, y: -40}
+        - {x: 50, y: -40}
+        - {x: 50, y: -19}
+        - {x: 41, y: 16}
+        - {x: 28, y: 59}
+    - name: caida_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 27}
+        - {x: -54, y: -5}
+        - {x: -35, y: -44}
+        - {x: 42, y: -44}
+        - {x: 42, y: 13}
+        - {x: 39, y: 51}
+        - {x: 15, y: 58}
+        - {x: -29, y: 58}
+        - {x: -33, y: 55}
+    - name: caida_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 58}
+        - {x: -43, y: 56}
+        - {x: -51, y: 46}
+        - {x: -51, y: -13}
+        - {x: -24, y: -50}
+        - {x: 36, y: -50}
+        - {x: 38, y: -48}
+        - {x: 38, y: 45}
+        - {x: 35, y: 58}
+    - name: caida_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 57}
+        - {x: -48, y: 24}
+        - {x: -48, y: 1}
+        - {x: -45, y: -7}
+        - {x: -28, y: -22}
+        - {x: -15, y: -28}
+        - {x: 9, y: -54}
+        - {x: 26, y: -54}
+        - {x: 39, y: -40}
+        - {x: 39, y: 46}
+        - {x: 33, y: 57}
+    - name: caida_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 57}
+        - {x: -45, y: 30}
+        - {x: -45, y: -5}
+        - {x: -20, y: -53}
+        - {x: 19, y: -53}
+        - {x: 28, y: -50}
+        - {x: 42, y: -32}
+        - {x: 42, y: 37}
+        - {x: 34, y: 57}
+    - name: caida_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 56}
+        - {x: -42, y: 20}
+        - {x: -42, y: -3}
+        - {x: -15, y: -51}
+        - {x: 36, y: -51}
+        - {x: 44, y: -23}
+        - {x: 44, y: 51}
+        - {x: 32, y: 56}
+    - name: caida_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 53}
+        - {x: -40, y: 32}
+        - {x: -40, y: -33}
+        - {x: -36, y: -51}
+        - {x: 36, y: -51}
+        - {x: 46, y: -28}
+        - {x: 46, y: 51}
+        - {x: 35, y: 53}
+    - name: caida_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    - name: caida_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    - name: caida_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    - name: caida_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    - name: caida_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    - name: caida_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 51}
+        - {x: -21, y: 51}
+        - {x: -39, y: 14}
+        - {x: -39, y: -27}
+        - {x: -26, y: -52}
+        - {x: 24, y: -52}
+        - {x: 43, y: -44}
+        - {x: 46, y: -18}
+        - {x: 46, y: 37}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

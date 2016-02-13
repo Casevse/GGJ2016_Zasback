@@ -31,6 +31,7 @@ public class Player : MonoBehaviour {
     private void Awake() {
         playerStats = GetComponent<PlayerStats>();
         animator = GetComponent<Animator>();
+        movingRight = false;
     }
 
 	private void Start() {
@@ -45,7 +46,9 @@ public class Player : MonoBehaviour {
 	}
 
 	private void Update() {
-        
+        if (GameManager.endGame) {
+            return;
+        }
         if (movingRight) {
             direction.x = 1.0f;
         } else {

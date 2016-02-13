@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 160986d12b9b6fa409b3fba3680f364e
+timeCreated: 1454179399
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Salto_0
+    21300002: Salto_1
+    21300004: Salto_2
+    21300006: Salto_3
+    21300008: Salto_4
+    21300010: Salto_5
+    21300012: Salto_6
+    21300014: Salto_7
+    21300016: Salto_8
+    21300018: Salto_9
+    21300020: Salto_10
+    21300022: Salto_11
+    21300024: Salto_12
+    21300026: Salto_13
+    21300028: Salto_14
+    21300030: Salto_15
+    21300032: Salto_16
+    21300034: Salto_17
+    21300036: Salto_18
+    21300038: Salto_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Salto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 46}
+        - {x: -40, y: 24}
+        - {x: -40, y: -14}
+        - {x: -29, y: -47}
+        - {x: -20, y: -52}
+        - {x: 23, y: -52}
+        - {x: 46, y: -34}
+        - {x: 46, y: 46}
+    - name: Salto_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 44}
+        - {x: -17, y: 44}
+        - {x: -41, y: 23}
+        - {x: -41, y: -21}
+        - {x: -30, y: -52}
+        - {x: 24, y: -52}
+        - {x: 45, y: -25}
+        - {x: 45, y: 31}
+        - {x: 42, y: 40}
+    - name: Salto_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 39}
+        - {x: -43, y: 15}
+        - {x: -43, y: -30}
+        - {x: -36, y: -53}
+        - {x: 20, y: -53}
+        - {x: 43, y: -42}
+        - {x: 43, y: 25}
+        - {x: 28, y: 39}
+    - name: Salto_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 33}
+        - {x: -36, y: 21}
+        - {x: -46, y: 8}
+        - {x: -46, y: -26}
+        - {x: -22, y: -54}
+        - {x: 20, y: -54}
+        - {x: 41, y: -35}
+        - {x: 41, y: 26}
+        - {x: 21, y: 33}
+    - name: Salto_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 360
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 55}
+        - {x: -47, y: 26}
+        - {x: -47, y: -25}
+        - {x: -25, y: -58}
+        - {x: 33, y: -58}
+        - {x: 43, y: -32}
+        - {x: 43, y: 39}
+        - {x: 31, y: 55}
+    - name: Salto_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 31}
+        - {x: -47, y: 14}
+        - {x: -47, y: -31}
+        - {x: -27, y: -54}
+        - {x: 32, y: -54}
+        - {x: 41, y: -49}
+        - {x: 41, y: 31}
+    - name: Salto_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 38}
+        - {x: -47, y: 20}
+        - {x: -47, y: -22}
+        - {x: -27, y: -56}
+        - {x: 21, y: -56}
+        - {x: 40, y: -35}
+        - {x: 40, y: 21}
+        - {x: 33, y: 38}
+    - name: Salto_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 52}
+        - {x: -46, y: 23}
+        - {x: -46, y: -6}
+        - {x: -38, y: -32}
+        - {x: -10, y: -60}
+        - {x: 15, y: -60}
+        - {x: 41, y: -35}
+        - {x: 41, y: 36}
+        - {x: 27, y: 52}
+    - name: Salto_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 58}
+        - {x: -47, y: 30}
+        - {x: -47, y: -1}
+        - {x: -40, y: -28}
+        - {x: -8, y: -60}
+        - {x: 22, y: -60}
+        - {x: 42, y: -26}
+        - {x: 42, y: 43}
+        - {x: 22, y: 58}
+    - name: Salto_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 55}
+        - {x: -47, y: 34}
+        - {x: -47, y: -6}
+        - {x: -34, y: -59}
+        - {x: 35, y: -59}
+        - {x: 42, y: -43}
+        - {x: 42, y: 41}
+        - {x: 33, y: 55}
+    - name: Salto_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 58}
+        - {x: -16, y: 58}
+        - {x: -47, y: 26}
+        - {x: -47, y: -15}
+        - {x: -14, y: -60}
+        - {x: 29, y: -60}
+        - {x: 42, y: -22}
+        - {x: 42, y: 48}
+        - {x: 31, y: 56}
+    - name: Salto_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 58}
+        - {x: -47, y: 25}
+        - {x: -47, y: -21}
+        - {x: -14, y: -60}
+        - {x: 35, y: -60}
+        - {x: 42, y: -34}
+        - {x: 42, y: 53}
+        - {x: 31, y: 58}
+    - name: Salto_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 58}
+        - {x: -47, y: 44}
+        - {x: -47, y: -36}
+        - {x: -26, y: -60}
+        - {x: 34, y: -60}
+        - {x: 43, y: -52}
+        - {x: 43, y: 58}
+    - name: Salto_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 57}
+        - {x: -47, y: 50}
+        - {x: -47, y: -19}
+        - {x: -27, y: -60}
+        - {x: 37, y: -60}
+        - {x: 43, y: -35}
+        - {x: 43, y: 55}
+        - {x: 35, y: 57}
+    - name: Salto_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 120
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 55}
+        - {x: -47, y: 38}
+        - {x: -47, y: -10}
+        - {x: -30, y: -60}
+        - {x: 42, y: -60}
+        - {x: 42, y: 47}
+        - {x: 22, y: 55}
+    - name: Salto_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 56}
+        - {x: -29, y: 56}
+        - {x: -47, y: 25}
+        - {x: -47, y: -24}
+        - {x: -21, y: -60}
+        - {x: 30, y: -60}
+        - {x: 43, y: -8}
+        - {x: 43, y: 33}
+        - {x: 35, y: 53}
+    - name: Salto_16
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: 55}
+        - {x: -39, y: 55}
+        - {x: -47, y: 50}
+        - {x: -47, y: -12}
+        - {x: -20, y: -60}
+        - {x: 30, y: -60}
+        - {x: 32, y: -55}
+        - {x: 43, y: -27}
+        - {x: 43, y: 44}
+    - name: Salto_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 55}
+        - {x: -47, y: 21}
+        - {x: -47, y: -18}
+        - {x: -25, y: -60}
+        - {x: 43, y: -60}
+        - {x: 43, y: 55}
+    - name: Salto_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 55}
+        - {x: -47, y: 40}
+        - {x: -47, y: -44}
+        - {x: -30, y: -59}
+        - {x: 43, y: -59}
+        - {x: 43, y: 52}
+        - {x: 40, y: 55}
+    - name: Salto_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -45}
+        - {x: -30, y: -60}
+        - {x: 30, y: -60}
+        - {x: 41, y: -22}
+        - {x: 41, y: 39}
+        - {x: 34, y: 46}
+        - {x: 23, y: 56}
+        - {x: -15, y: 56}
+        - {x: -48, y: 35}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

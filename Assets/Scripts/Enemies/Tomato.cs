@@ -11,15 +11,29 @@ public class Tomato : Enemy {
 	// Use this for initialization
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D>();
-		initEnemy (1, 200.0f, 1, 0.5f);
+		initEnemy ();
 		initParamsTomato ();
 	}
 
 	private void initParamsTomato(){
 		rigidBody.gravityScale += fallSpeed;
-		height = 600.0f;
+
+        //Velocidad de movimiento aleatoria
+        float randMov = Random.Range(200.0f, 300.0f);
+        movSpeed = randMov + (10.0f * numberRound);
+
+        //Random de la altura de salto
+        float randAltura = Random.Range(500.0f, 700.0f);
+		height = randAltura + (10.0f * numberRound);
+
+        if (height > 900.0f) {
+            height = 900.0f;
+        }
+
+        //Random del retraso entre salto y salto
+        float randDelay = Random.Range(1.0f, 2.5f);
 		timeJump = Time.time - 1.0f;
-		delayJump = 1.0f;
+        delayJump = randDelay;
 	}
 	
 	// Update is called once per frame
@@ -40,10 +54,14 @@ public class Tomato : Enemy {
 	}
 
 	void OnCollisionEnter2D (Collision2D col) {
-		if (col.gameObject.tag == "Floor" && !onFloor) {
+        if (GameManager.endGame) {
+            return;
+        }
+
+        if (col.gameObject.tag == "Floor" && !onFloor) {
 			timeJump = Time.time;
 			onFloor = true;
-		} else if (col.gameObject.tag == "Wall") {
+		} else if (col.gameObject.tag == "Wall" || col.gameObject.tag == "Key") {
 			side = !side;
 		} else if(col.gameObject.tag == "Player") {
 			PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
@@ -51,11 +69,19 @@ public class Tomato : Enemy {
 				stats.RemoveFat(damage);
 				timeDamage = Time.time;
 			}
-		}
-	}
+		} else if (col.gameObject.tag == "Enemy") {
+            if (col.contacts[0].normal.y != -1.0f) {
+                side = !side;
+            }
+        }
+    }
 
 	void OnCollisionStay2D(Collision2D coll) {
-		if (coll.gameObject.tag == "Player") {
+        if (GameManager.endGame) {
+            return;
+        }
+
+        if (coll.gameObject.tag == "Player") {
 			if((Time.time - timeDamage) > delayDamage){
 				PlayerStats stats = coll.gameObject.GetComponent<PlayerStats>();
 				if(stats != null){
@@ -78,6 +104,23 @@ public class Tomato : Enemy {
             }
             else {
                 side = !side;
+            }
+        }
+        else if (coll.gameObject.tag == "Wall") {
+            if ((Time.time - timeStay) > delayStay) {
+                side = !side;
+                timeStay = Time.time;
+            }
+        }
+        else if (coll.gameObject.tag == "Key") {
+            if (coll.contacts[0].normal.y == 1.0f) {
+                if (transform.position.x < coll.gameObject.transform.position.x) {
+                    rigidbody.AddForce(new Vector2(-100.0f, 100.0f));
+                }
+                else {
+                    rigidbody.AddForce(new Vector2(100.0f, 100.0f));
+                }
+                onFloor = true;
             }
         }
     }

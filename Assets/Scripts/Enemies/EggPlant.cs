@@ -8,7 +8,7 @@ public class EggPlant : Enemy {
 	// Use this for initialization
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D>();
-		initEnemy (1, 1.0f, 1, 0f);
+		initEnemy ();
 		rigidBody.gravityScale += fallSpeed;
 	}
 	

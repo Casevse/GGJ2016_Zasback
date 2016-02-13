@@ -15,7 +15,6 @@ public class PlayerStats : MonoBehaviour {
 
 	public int progress;
 
-
 	private float screenX;
 	private float screenY;
 	private float widthBar;
@@ -26,9 +25,11 @@ public class PlayerStats : MonoBehaviour {
 
     private float invulnerableTime = 0.0f;
     private SpriteRenderer spriteRenderer;
+    private Player player;
 
     private void Awake() {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        player = GetComponent<Player>();
     }
 
 	// Use this for initialization
@@ -93,29 +94,30 @@ public class PlayerStats : MonoBehaviour {
 					modifyFat -= progress;
 					fat += progress;
 				}
-			} else
-				modifyFat = 0;
-
-		}
+			} else {
+                modifyFat = 0;
+            }
+		} else {
+            Destroy(this.gameObject);
+        }
 	}
 
 
-	public void AddFat(int value){
+	public void AddFat(int value) {
 		modifyFat += value;
 
 	}
 
-	public void RemoveFat(int value){
-		modifyFat -= value;
-		SoundSingleton.Singleton.PlayHitPlayer ();
-        this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
-        invulnerableTime = Time.time + 0.5f;
+	public void RemoveFat(int value) {
+        if (player.attackPhase != Player.AttackPhase.END) {
+            modifyFat -= value;
+            SoundSingleton.Singleton.PlayHitPlayer();
+            this.gameObject.layer = LayerMask.NameToLayer("Invulnerable");
+            invulnerableTime = Time.time + 0.5f;
+        }
     }
 
-
-
-
-	public bool IsDead(){
+	public bool IsDead() {
 		if (fat <= 0)
 			return true;
 		else
